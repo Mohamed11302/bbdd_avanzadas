@@ -2,17 +2,10 @@ import os
 import requests
 import json
 import constantes as const
-import pandas as pd
 
 def get_api_key():
-    return os.getenv("YOUTUBE_CREDENTIAL")
+    return os.getenv(const.YT_APIKEY)
 
-def get_header(api_key):
-    return {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}',
-    } 
 
 def http_request_yt(url, params):
     try:
@@ -26,7 +19,6 @@ def http_request_yt(url, params):
         return None
 
 def check_ids(df, api_key):
-    headers = get_header(api_key)
     for i, row in df.iterrows():
         print(i, end=": ")
         params = {
@@ -42,3 +34,4 @@ def check_ids(df, api_key):
             print(f"ERROR: {response_json.status_code}")
             df.at[i, 'Consulta'] = 0
         df.to_csv(const.YT_IDS, index=False)
+    return df
