@@ -44,7 +44,7 @@ def get_channel_info(df, api_key):
                     'numvideos': response['statistics']['videoCount']
                 }, ignore_index=True)
             df.loc[indice1:indice2, 'Channel'] = 1
-            df.to_csv(const.YT_IDS, index=False)
+            df.to_csv(const.YT_IDS_CHECK, index=False)
             df_channels.to_csv(const.YT_CHANNELS, index=False)
 
 
