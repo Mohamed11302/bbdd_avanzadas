@@ -1,0 +1,13 @@
+YT_IDS_UNCHECK = 'youtube_data//youtube_files//yt_ids_uncheck.csv'
+YT_IDS_CHECK = 'youtube_data//youtube_files//yt_ids_check.csv'
+YT_CHANNELS = 'youtube_data//youtube_files//yt_channels_info.csv'
+YT_VIDEOS = 'youtube_data//youtube_files//yt_videos_info.csv'
+YT_API_CHANNELS= 'https://www.googleapis.com/youtube/v3/channels'
+YT_API_PLAYLISTS='https://www.googleapis.com/youtube/v3/playlists'
+YT_API_PLAYLISTSITEMS='https://www.googleapis.com/youtube/v3/playlistItems'
+YT_API_SEARCH='https://www.googleapis.com/youtube/v3/search'
+YT_API_VIDEOS='https://www.googleapis.com/youtube/v3/videos'
+YT_APIKEY1 = 'YOUTUBE_CREDENTIAL1'
+YT_APIKEY2 = 'YOUTUBE_CREDENTIAL2'
+YT_APIKEY3 = 'YOUTUBE_CREDENTIAL3'
+
