@@ -11,7 +11,7 @@ def get_channel_info(df, api_key):
         print(fila)
         indice1 = fila
         indice2 = fila+salto-1
-        ids = obtener_lista_ids(df, indice1, indice2)
+        ids = utils.obtener_lista_ids_df(df,'ID', indice1, indice2)
         params = {
             'part': 'snippet,statistics',
             'id': ids,
@@ -50,12 +50,4 @@ def get_channel_info(df, api_key):
 
 
 
-def obtener_lista_ids(df, indice1, indice2):
-    if indice1<0 or indice1>len(df) or indice1>indice2:
-        return None
-    if indice2>len(df):
-        indice2 = len(df)
-    elementos = df.loc[indice1:indice2, 'ID']    
-    elementos_str = ", ".join(map(str, elementos))
-    
-    return elementos_str
+
