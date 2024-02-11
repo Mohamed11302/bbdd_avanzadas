@@ -3,8 +3,6 @@ import utils
 import pandas as pd
 import requests
 import json
-from datetime import datetime
-import isodate
 def get_video_playlist(channel_id, api_key):
     params = {
             'part': 'snippet,statistics',

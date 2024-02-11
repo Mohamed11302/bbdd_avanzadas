@@ -7,7 +7,7 @@ YT_API_PLAYLISTS='https://www.googleapis.com/youtube/v3/playlists'
 YT_API_PLAYLISTSITEMS='https://www.googleapis.com/youtube/v3/playlistItems'
 YT_API_SEARCH='https://www.googleapis.com/youtube/v3/search'
 YT_API_VIDEOS='https://www.googleapis.com/youtube/v3/videos'
+
 YT_APIKEY1 = 'YOUTUBE_CREDENTIAL1'
 YT_APIKEY2 = 'YOUTUBE_CREDENTIAL2'
 YT_APIKEY3 = 'YOUTUBE_CREDENTIAL3'
-
