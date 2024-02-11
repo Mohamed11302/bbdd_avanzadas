@@ -1,1 +1,0 @@
-probar a buscar los videos mas vistos publicados en el ultimo año y de ahi saco los ids de los canales

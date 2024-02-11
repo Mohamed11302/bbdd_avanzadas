@@ -1,2 +1,2 @@
-google-auth==2.27.0
-google-api-python-client==2.116.0
+pandas==2.2.0
+requests==2.31.0
