@@ -1,8 +1,9 @@
-import bronze.bronze as bronze
+import preprocesado.bronze as bronze
+import preprocesado.silver as silver
 import conexionBBDD.conexionBBDD as conBBDD
-import os
 
 
 if __name__ == "__main__":
-    conn = conBBDD.crear_conexion()
-    bronze.create_bronze_schema(conn)
+    conn_str = conBBDD.get_bbdd_url()
+    #bronze.create_bronze_schema(conn_str)
+    silver.preprocess_silver_scheme(conn_str)
