@@ -159,11 +159,28 @@ def insert_data(conn, schema_name ,df_video, df_channel):
   
   for row in df_video.itertuples():
     dates = create_date_from_csv(row, df_video)
-    insert_date_query = f"""
-      INSERT INTO {schema_name}.dates (date_id, year, month, day, hour, min, sec)
-      VALUES (%s, %s, %s, %s, %s, %s, %s)
-    """
-    conn.execute(insert_date_query, (dates.date_id, dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec))
+    try:
+      insert_date_query = f"""
+        INSERT INTO {schema_name}.dates (date_id, year, month, day, hour, min, sec)
+        VALUES (%s, %s, %s, %s, %s, %s, %s)
+      """
+      conn.execute(insert_date_query, (dates.date_id, dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec))
+
+    except psycopg2.IntegrityError as e:
+      update_date_query = f"""
+        WITH ranked_dates AS (
+          SELECT 
+            date_id,
+            ROW_NUMBER() OVER (PARTITION BY date_id ORDER BY ctid) AS rn
+          FROM 
+            {schema_name}.dates
+        )
+        UPDATE {schema_name}.dates AS d
+        SET date_id = CONCAT(d.date_id, '_' , r.rn)
+        FROM ranked_dates AS r
+        WHERE d.date_id = r.date_id;
+      """
+      conn.execute(update_date_query, (dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec, dates.date_id))
 
   for row in df_video.itertuples():
     video = create_video_from_csv(row, df_video)
