@@ -14,7 +14,7 @@ def diseno_gold(conn_str):
     #drop_tables(conn,"gold")
     create_tables(conn,"gold")
     conn.connection.commit()
-    insert_data(conn, df_video, df_channel)
+    insert_data(conn, "gold",df_video, df_channel)
     conn.connection.commit()
     print("Datos insertados")
     establish_relationships(conn,"gold")
@@ -155,44 +155,44 @@ def create_tables(conn, schema_name):
   except Exception as e:
     print(f"Error al crear la tabla 'Tag': {e}")
 
-def insert_data(conn, df_video, df_channel):
+def insert_data(conn, schema_name ,df_video, df_channel):
   
   for row in df_video.itertuples():
     dates = create_date_from_csv(row, df_video)
-    insert_date_query = """
-      INSERT INTO dates (date_id, year, month, day, hour, min, sec)
+    insert_date_query = f"""
+      INSERT INTO {schema_name}.dates (date_id, year, month, day, hour, min, sec)
       VALUES (%s, %s, %s, %s, %s, %s, %s)
     """
     conn.execute(insert_date_query, (dates.date_id, dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec))
 
   for row in df_video.itertuples():
     video = create_video_from_csv(row, df_video)
-    insert_video_query = """
-      INSERT INTO Video (video_id, title, statistics_id, category_id, duration, default_audio_language, type)
+    insert_video_query = f"""
+      INSERT INTO {schema_name}.Video (video_id, title, statistics_id, category_id, duration, default_audio_language, type)
       VALUES (%s, %s, %s, %s, %s, %s, %s)
     """
     conn.execute(insert_video_query, (video.video_id, video.title, video.statistics_id, video.category_id, video.duration, video.default_audio_language, video.type))
 
   for row in df_channel.itertuples():
     channel = create_channel_from_csv(row, df_channel)
-    insert_channel_query = """
-      INSERT INTO Channel (channel_id, name, statistics_id, language, country)
+    insert_channel_query = f"""
+      INSERT INTO {schema_name}.Channel (channel_id, name, statistics_id, language, country)
       VALUES (%s, %s, %s, %s, %s)
     """
     conn.execute(insert_channel_query, (channel.channel_id, channel.name, channel.statistics_id, channel.language, channel.country))
 
   for row in df_video.itertuples():
     video_stats = create_video_stats_from_csv(row, video, channel, dates)
-    insert_video_stats_query = """
-      INSERT INTO VideoStats (stats_id, date_id, video_id, channel_id)
+    insert_video_stats_query = f"""
+      INSERT INTO {schema_name}.VideoStats (stats_id, date_id, video_id, channel_id)
       VALUES (%s, %s, %s, %s)
     """
     conn.execute(insert_video_stats_query, (video_stats.stats_id, video_stats.dates.date_id, video_stats.video.video_id, video_stats.channel.channel_id))
 
   for row in df_channel.itertuples():
     channel_stats = create_channel_stats_from_csv(row, channel, dates)
-    insert_channel_stats_query = """
-      INSERT INTO ChannelStats (stats_id, date_id, channel_id)
+    insert_channel_stats_query = f"""
+      INSERT INTO {schema_name}.ChannelStats (stats_id, date_id, channel_id)
       VALUES (%s, %s, %s)
     """
     conn.execute(insert_channel_stats_query, (channel_stats.stats_id, channel_stats.dates.date_id, channel_stats.channel.channel_id))
