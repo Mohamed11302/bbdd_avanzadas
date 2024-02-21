@@ -9,10 +9,28 @@ def diseno_gold(conn_str):
     print("Leidos df_video y df_channel")
     conn=psycopg2.connect(conn_str)
     conn=conn.cursor()
-    create_tables(conn,"gold")
-    insert_data(conn, df_video, df_channel)
+    create_table_example(conn,"gold", "prueba", "employee_id SERIAL PRIMARY KEY,first_name VARCHAR(50),last_name VARCHAR(50),birth_date DATE,joined_date TIMESTAMP,department VARCHAR(50)")
+    conn.connection.commit()
+    #create_tables(conn,"gold")
+    #insert_data(conn, df_video, df_channel)
     #establish_relationships(conn,"gold")
-    print("Tablas creadas y conectadas")
+    #print("Tablas creadas y conectadas")
+
+def create_table_example(conn, schema_name, table_name, attributes):
+    try:
+        # Create schema if it doesn't exist
+        conn.execute(f"CREATE SCHEMA IF NOT EXISTS {schema_name};")
+        
+        # Create table
+        query = f"""
+        CREATE TABLE IF NOT EXISTS {schema_name}.{table_name} (
+            {attributes}
+        );
+        """
+        conn.execute(query)
+        print(f"Table {table_name} created successfully in schema {schema_name}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def create_tables(conn, schema_name):
   
