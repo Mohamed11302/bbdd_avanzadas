@@ -158,24 +158,35 @@ def create_tables(conn, schema_name):
 def insert_data(conn, schema_name ,df_video, df_channel):
   
   for row in df_video.itertuples():
-    dates = create_date_from_csv(row, df_video)
+    try:
+      dates = create_date_from_csv(row, df_video)
+    except UnicodeDecodeError:
+       continue
     insert_date_query = f"""
       INSERT INTO {schema_name}.dates (date_id, year, month, day, hour, min, sec)
       VALUES (%s, %s, %s, %s, %s, %s, %s)
       ON CONFLICT DO NOTHING;
     """
     conn.execute(insert_date_query, (dates.date_id, dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec))
+  print("Fechas insertadas")
 
   for row in df_video.itertuples():
-    video = create_video_from_csv(row, df_video)
+    try:
+      video = create_video_from_csv(row, df_video)
+    except UnicodeDecodeError:
+       continue
     insert_video_query = f"""
       INSERT INTO {schema_name}.Video (video_id, title, statistics_id, category_id, duration, default_audio_language, type)
       VALUES (%s, %s, %s, %s, %s, %s, %s)
     """
     conn.execute(insert_video_query, (video.video_id, video.title, video.statistics_id, video.category_id, video.duration, video.default_audio_language, video.type))
+  print("Videos insertados")
 
   for row in df_channel.itertuples():
-    channel = create_channel_from_csv(row, df_channel)
+    try:
+      channel = create_channel_from_csv(row, df_channel)
+    except UnicodeDecodeError:
+       continue
     insert_channel_query = f"""
       INSERT INTO {schema_name}.Channel (channel_id, name, statistics_id, language, country)
       VALUES (%s, %s, %s, %s, %s)
@@ -183,7 +194,10 @@ def insert_data(conn, schema_name ,df_video, df_channel):
     conn.execute(insert_channel_query, (channel.channel_id, channel.name, channel.statistics_id, channel.language, channel.country))
 
   for row in df_video.itertuples():
-    video_stats = create_video_stats_from_csv(row, video, channel, dates)
+    try:
+      video_stats = create_video_stats_from_csv(row, video, channel, dates)
+    except UnicodeDecodeError:
+       continue
     insert_video_stats_query = f"""
       INSERT INTO {schema_name}.VideoStats (stats_id, date_id, video_id, channel_id)
       VALUES (%s, %s, %s, %s)
@@ -191,7 +205,10 @@ def insert_data(conn, schema_name ,df_video, df_channel):
     conn.execute(insert_video_stats_query, (video_stats.stats_id, video_stats.dates.date_id, video_stats.video.video_id, video_stats.channel.channel_id))
 
   for row in df_channel.itertuples():
-    channel_stats = create_channel_stats_from_csv(row, channel, dates)
+    try:
+      channel_stats = create_channel_stats_from_csv(row, channel, dates)
+    except UnicodeDecodeError:
+       continue
     insert_channel_stats_query = f"""
       INSERT INTO {schema_name}.ChannelStats (stats_id, date_id, channel_id)
       VALUES (%s, %s, %s)
