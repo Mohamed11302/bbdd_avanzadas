@@ -159,28 +159,12 @@ def insert_data(conn, schema_name ,df_video, df_channel):
   
   for row in df_video.itertuples():
     dates = create_date_from_csv(row, df_video)
-    try:
-      insert_date_query = f"""
-        INSERT INTO {schema_name}.dates (date_id, year, month, day, hour, min, sec)
-        VALUES (%s, %s, %s, %s, %s, %s, %s)
-      """
-      conn.execute(insert_date_query, (dates.date_id, dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec))
-
-    except psycopg2.IntegrityError as e:
-      update_date_query = f"""
-        WITH ranked_dates AS (
-          SELECT 
-            date_id,
-            ROW_NUMBER() OVER (PARTITION BY date_id ORDER BY ctid) AS rn
-          FROM 
-            {schema_name}.dates
-        )
-        UPDATE {schema_name}.dates AS d
-        SET date_id = CONCAT(d.date_id, '_' , r.rn)
-        FROM ranked_dates AS r
-        WHERE d.date_id = r.date_id;
-      """
-      conn.execute(update_date_query, (dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec, dates.date_id))
+    insert_date_query = f"""
+      INSERT INTO {schema_name}.dates (date_id, year, month, day, hour, min, sec)
+      VALUES (%s, %s, %s, %s, %s, %s, %s)
+      ON CONFLICT DO NOTHING;
+    """
+    conn.execute(insert_date_query, (dates.date_id, dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec))
 
   for row in df_video.itertuples():
     video = create_video_from_csv(row, df_video)
@@ -217,7 +201,7 @@ def insert_data(conn, schema_name ,df_video, df_channel):
 # Funciones para crear instancias a partir de los datos CSV
 def create_date_from_csv(row, df_video):
     date_time_obj = datetime.strptime(row[4], '%Y-%m-%dT%H:%M:%SZ')
-    date_id = row[4]
+    date_id = row[4] + "_" + row[3]
     return dates(date_id, date_time_obj.year, date_time_obj.month, date_time_obj.day, date_time_obj.hour, date_time_obj.minute, date_time_obj.second)
 
 def create_video_from_csv(row):
