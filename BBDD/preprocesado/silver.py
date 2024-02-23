@@ -4,9 +4,11 @@ import conexionBBDD.conexionBBDD as conBBDD
 def preprocess_silver_scheme(conn_str):
     df_channel = conBBDD.obtener_dataframe('bronze', 'channel', conn_str)
     df_channel = preprocess_channel(df_channel)
+    df_channel = df_channel.drop_duplicates(subset='id', keep='first')
 
     df_video = conBBDD.obtener_dataframe('bronze', 'video', conn_str)
     df_video = preprocess_video(df_video)
+    df_video = df_video.drop_duplicates(subset='id', keep='first')
 
     conBBDD.guardar_df_en_tabla(df_channel, 'channel','silver', conn_str)
     conBBDD.guardar_df_en_tabla(df_video, 'video', 'silver', conn_str)
