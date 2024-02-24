@@ -59,10 +59,3 @@ CREATE TABLE IF NOT EXISTS gold.fact_channelstats (
     FOREIGN KEY (date_id) REFERENCES gold.dates(date_id),
     FOREIGN KEY (channel_id) REFERENCES gold.channel(channel_id)
 );
-
-CREATE TABLE IF NOT EXISTS gold.tag (
-    tag_id SERIAL PRIMARY KEY,
-    tag_name VARCHAR(255) NOT NULL,
-    video_id VARCHAR(255) NOT NULL,
-    FOREIGN KEY (video_id) REFERENCES gold.video(video_id)
-);

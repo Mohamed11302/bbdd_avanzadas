@@ -43,36 +43,19 @@ class ChannelStatistics:
         self.view_count = view_count
         self.num_videos = num_videos
 
-class VideoStats:
+class VideoFacts:
     def __init__(self, stats_id, dates, video, channel):
         self.stats_id = stats_id
         self.dates = dates
         self.video = video
         self.channel = channel
 
-class ChannelStats:
+class ChannelFacts:
     def __init__(self, stats_id, dates, channel):
         self.stats_id = stats_id
         self.dates = dates
         self.channel = channel
 
-    def get_stats_id(self):
-        return self.stats_id
-
-    def get_date(self):
-        return self.dates
-
-    def get_channel(self):
-        return self.channel
-
-    def set_stats_id(self, stats_id):
-        self.stats_id = stats_id
-
-    def set_date(self, dates):
-        self.dates = dates
-
-    def set_channel(self, channel):
-        self.channel = channel
 
 
 def create_date_from_csv(row, df, column_date, column_identifier):
@@ -85,16 +68,16 @@ def create_video_from_csv(row):
     return Video(row['id'], row['title'], str(row['id'])+"_statistics", row['categoryId'], row['duration'], row['defaultAudioLanguage'], row['type'], tags)
 
 def create_channel_from_csv(row):
-    return Channel(row['id'], row['name'], row['id'], row['language'], row['country'])
+    return Channel(row['id'], row['name'], str(row['id'])+"_statistics", row['language'], row['country'])
 
 def create_video_statistics_from_csv(row):
     return VideoStatistics(str(row['id'])+"_statistics", row['viewCount'], row['likeCount'], row['commentCount'])
 
 def create_channel_statistics_from_csv(row):
-    return ChannelStatistics(row['id'], row['subscribers'], row['viewcount'], row['numvideos'])
+    return ChannelStatistics(str(row['id'])+"_statistics", row['subscribers'], row['viewcount'], row['numvideos'])
 
-def create_video_stats_from_csv(row, video, channel, dates):
-    return VideoStats(row['id'], dates, video, channel)
+def create_video_facts_from_csv(row):
+    return VideoFacts(row["id"], str(row["id"])+"_"+str(row["publishedAt"]), row["id"], row["channelId"])
 
-def create_channel_stats_from_csv(row, channel, dates):
-    return ChannelStats(row['id'], dates, channel)
+def create_channel_facts_from_csv(row):
+    return ChannelFacts(row['id'], str(row["id"])+"_"+str(row["creationdate"]), row["id"])
