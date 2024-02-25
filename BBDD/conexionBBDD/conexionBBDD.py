@@ -5,7 +5,7 @@ from psycopg2 import sql
 from sqlalchemy import create_engine
 from sqlalchemy import inspect
 from urllib.parse import urlparse
-import conexionBBDD.constantesBBDD as const
+import BBDD.conexionBBDD.constantesBBDD as const
 
 def verificar_conexion(url):
     try:

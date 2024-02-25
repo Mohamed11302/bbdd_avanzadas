@@ -1,5 +1,5 @@
-import conexionBBDD.conexionBBDD as conBBDD
-import conexionBBDD.constantesBBDD as const
+import BBDD.conexionBBDD.conexionBBDD as conBBDD
+import BBDD.conexionBBDD.constantesBBDD as const
 import pandas as pd
 
 def create_bronze_schema(conn_str):
