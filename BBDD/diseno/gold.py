@@ -1,7 +1,7 @@
-import conexionBBDD.conexionBBDD as conBBDD
+import BBDD.conexionBBDD.conexionBBDD as conBBDD
 import pandas as pd
 import psycopg2
-import diseno.clases as clases
+import BBDD.diseno.clases as clases
 CREATE_SQL_TABLES_FILE = "BBDD//diseno//gold_tables.sql"
 
 def diseno_gold(conn_str):
@@ -25,8 +25,8 @@ def insert_data2(conn, schema_name, df_channel, df_video):
     #insert_channel(conn, schema_name, df_channel)
     #insert_fact_channelstats(conn, schema_name, df_channel)
     
-    #insert_video(conn, schema_name, df_video) #AÑADIR INSERTAR TAGS
-    insert_fact_videostats(conn, schema_name, df_video)
+    insert_video(conn, schema_name, df_video) #AÑADIR INSERTAR TAGS
+    #insert_fact_videostats(conn, schema_name, df_video)
 
 
 def insert_fact_channelstats(conn, schema_name, df):
@@ -89,6 +89,7 @@ def insert_video(conn, schema_name, df):
           conn.execute(insert_video_query, (video.video_id, video.title, video.statistics_id, video.category_id, video.duration, video.default_audio_language, video.type))
       except Exception as e:
           print(f"Error al insertar el video {video.video_id}: {e}")
+    conn.connection.commit()
 
 def insert_video_statistics(conn, schema_name, df):
     for index, row in df.iterrows():
@@ -134,71 +135,6 @@ def insert_date(conn, schema_name, df, column_date, column_identifier):
     except Exception as e:
         print(f"Error al insertar la fecha {date.date_id}: {e}")
   conn.connection.commit()
-
-     
-
-
-
-def insert_data(conn, schema_name ,df_video, df_channel):
-  
-  for row in df_video.itertuples():
-    try:
-      dates = clases.create_date_from_csv(row, df_video)
-    except UnicodeDecodeError:
-       continue
-    insert_date_query = f"""
-      INSERT INTO {schema_name}.dates (date_id, year, month, day, hour, min, sec)
-      VALUES (%s, %s, %s, %s, %s, %s, %s)
-      ON CONFLICT DO NOTHING;
-    """
-    conn.execute(insert_date_query, (dates.date_id, dates.year, dates.month, dates.day, dates.hour, dates.min, dates.sec))
-  print("Fechas insertadas")
-
-  for row in df_video.itertuples():
-    try:
-      video = clases.create_video_from_csv(row, df_video)
-    except UnicodeDecodeError:
-       continue
-    insert_video_query = f"""
-      INSERT INTO {schema_name}.Video (video_id, title, statistics_id, category_id, duration, default_audio_language, type)
-      VALUES (%s, %s, %s, %s, %s, %s, %s)
-    """
-    conn.execute(insert_video_query, (video.video_id, video.title, video.statistics_id, video.category_id, video.duration, video.default_audio_language, video.type))
-  print("Videos insertados")
-
-  for row in df_channel.itertuples():
-    try:
-      channel = clases.create_channel_from_csv(row, df_channel)
-    except UnicodeDecodeError:
-       continue
-    insert_channel_query = f"""
-      INSERT INTO {schema_name}.Channel (channel_id, name, statistics_id, language, country)
-      VALUES (%s, %s, %s, %s, %s)
-    """
-    conn.execute(insert_channel_query, (channel.channel_id, channel.name, channel.statistics_id, channel.language, channel.country))
-
-  for row in df_video.itertuples():
-    try:
-      video_stats = clases.create_video_stats_from_csv(row, video, channel, dates)
-    except UnicodeDecodeError:
-       continue
-    insert_video_stats_query = f"""
-      INSERT INTO {schema_name}.VideoStats (stats_id, date_id, video_id, channel_id)
-      VALUES (%s, %s, %s, %s)
-    """
-    conn.execute(insert_video_stats_query, (video_stats.stats_id, video_stats.dates.date_id, video_stats.video.video_id, video_stats.channel.channel_id))
-
-  for row in df_channel.itertuples():
-    try:
-      channel_stats = clases.create_channel_stats_from_csv(row, channel, dates)
-    except UnicodeDecodeError:
-       continue
-    insert_channel_stats_query = f"""
-      INSERT INTO {schema_name}.ChannelStats (stats_id, date_id, channel_id)
-      VALUES (%s, %s, %s)
-    """
-    conn.execute(insert_channel_stats_query, (channel_stats.stats_id, channel_stats.dates.date_id, channel_stats.channel.channel_id))
-
 
 
 def execute_sql_file(cursor, sql_file_path):

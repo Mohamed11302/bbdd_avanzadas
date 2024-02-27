@@ -1,5 +1,5 @@
-import constantes as const
-import utils
+import youtube_data.constantes as const
+import youtube_data.utils
 import pandas as pd
 
 

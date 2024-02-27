@@ -1,4 +1,4 @@
-import conexionBBDD.conexionBBDD as conBBDD
+import BBDD.conexionBBDD.conexionBBDD as conBBDD
 
 
 def preprocess_silver_scheme(conn_str):
