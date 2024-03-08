@@ -10,3 +10,4 @@ Repositorio para los trabajos de Bases de Datos Avanzadas
 | Número de Trabajo  | Trabajo |
 |-----------|-----------|
 | 1 | [Data Warehouse](https://github.com/Mohamed11302/bbdd_avanzadas/tree/Data_Warehouse)    |
+| 2 | [XML](https://github.com/Mohamed11302/bbdd_avanzadas/tree/XML)                          |
