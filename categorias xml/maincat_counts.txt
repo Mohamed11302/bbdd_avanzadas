@@ -1,162 +1,179 @@
-None: 4474394
-Family & Relationships: 1217
-Entertainment & Music: 951
-Computers & Internet: 571
-Society & Culture: 561
-Business & Finance: 481
-Education & Reference: 444
-Science & Mathematics: 380
-Politics & Government: 335
-Health: 268
-Pregnancy & Parenting: 223
-Cars & Transportation: 219
-Arts & Humanities: 219
-Beauty & Style: 197
-Yahoo! Products: 175
-Games & Recreation: 161
-Sports: 151
-Food & Drink: 148
-Consumer Electronics: 135
-Home & Garden: 134
-Pets: 87
-Travel: 84
-News & Events: 54
-Família e Relacionamentos: 52
-Familia, Amor y Relaciones: 51
-Social Science: 45
-Música y Entretenimiento: 43
-Amour et relations: 37
-Actualités et événements: 36
-Sociedad y Cultura: 35
-Local Businesses: 29
-Dining Out: 28
-Informatique et internet: 28
-Entretenimento e Música: 25
-Politique et gouvernement: 24
-Computadoras e Internet: 24
-Ciencias Sociales: 23
-Sociedade e Cultura: 21
-Computadores e Internet: 20
-Salud y Belleza: 19
-Política y Gobierno: 19
-Arte y Humanidades: 18
-Entreprises et finance: 17
-Musique, ciné, tv, loisirs: 17
-Musica e intrattenimento: 17
-Enseignement et référence: 16
-Arts et sciences humaines: 16
-Societé et culture: 16
-Yahoo! y sus Productos: 14
-Negocios y Finanzas: 14
-Familia y Relaciones: 12
-Educación y Formación: 12
-Ciências e Matemática: 12
-Relazioni e famiglia: 11
-Governo e Política: 11
-Embarazo y Maternidad: 11
-Environment: 9
-Computer e Internet: 9
-Relaciones Familiares: 9
-Ciencias y Matemáticas: 9
-Deportes: 9
-Sciences et mathématiques: 9
-Internet y Computadoras: 9
-Gesellschaft & Kultur: 9
-Computer & Internet: 9
-Educação e Referência: 9
-Ordenadores e Internet: 8
-Música y Ocio: 8
-Wissenschaft & Mathematik: 8
-Freunde & Familie: 8
-Juegos y Recreación: 8
-Santé: 8
-Comer y Beber: 7
-Voyage: 7
-Sport: 6
-Ciencia y Matemáticas: 6
-Gastronomie et boisson: 6
-Giochi e passatempi: 6
-Scienze sociali: 6
-Unterhaltung & Musik: 5
-Negocios Locales: 5
-Società e culture: 5
-Image et son: 5
-Artes e Humanidades: 5
-Sciences sociales: 5
-Ciências Sociais: 5
-Viajes: 5
-Yahoo! Produkte: 5
-Belleza y Moda: 5
-Schule & Bildung: 5
-Ciencias sociales: 5
-Gravidez e Maternidade: 4
-Saúde e Beleza: 4
-Nachrichten & Medien: 4
-Salud: 4
-Servizi Yahoo!: 4
-Belleza y Estilo: 4
-Hogar y Jardinería: 4
-Essen & Trinken: 4
-Maison et jardin: 4
-Automobile et transport: 4
-Grossesse et enfants: 4
-Wirtschaft & Finanzen: 4
-Autos y Transporte: 3
-Educación: 3
-Affari e finanza: 3
-Beleza e Estilo: 3
-Sozialwissenschaft: 3
-Noticias y Eventos: 3
-Electrónica de Consumo: 3
-Politica e governo: 3
-Autos, Transport & Verkehr: 3
-Arte e cultura: 3
-Gesundheit: 3
-Medio Ambiente: 3
-Freizeit & Spiele: 3
-Yahoo!7 Products: 2
-Notícias e Eventos: 2
-Notizie ed eventi: 2
-Casa y Jardín: 2
-Esportes: 2
-Carros e Transportes: 2
-Produtos do Yahoo!: 2
-Scuola ed educazione: 2
-Jeux et hobbies: 2
-Negócios e Finanças: 2
-Electrónica de consumo: 2
-Elettronica di consumo: 2
-Noticias y Actualidad: 2
-Matematica e scienze: 2
-Eletrônicos: 2
-Kunst & Geisteswissenschaft: 2
-Animaux: 2
-Mascotas: 2
-Juegos y Aficiones: 2
-Haus & Garten: 2
-Casa e Jardim: 1
-Productos Electrónicos: 1
-Restaurants: 1
-Schwangerschaft & Erziehung: 1
-Gravidanza e genitori: 1
-Tiere: 1
-Animais de Estimação: 1
-Autos y Medios de Transporte: 1
-Turismo: 1
-Automóviles y Transporte: 1
-Animali da compagnia: 1
-Viaggi: 1
-Beauté et mode: 1
-Services Yahoo!: 1
-Politik & Verwaltung: 1
-Productos Yahoo!: 1
-Asia Pacific: 1
-Jogos e Recreação: 1
-Reisen: 1
-Économie locale: 1
-Bellezza e stile: 1
-Auto e trasporti: 1
-Salute: 1
-Unterhaltungselektronik: 1
-Mangiare e bere: 1
-Viagens: 1
+None: 4482757
+Family & Relationships: 517849
+Entertainment & Music: 440548
+Society & Culture: 295340
+Computers & Internet: 281696
+Health: 278942
+Business & Finance: 265182
+Education & Reference: 206440
+Science & Mathematics: 169586
+Politics & Government: 152564
+Sports: 146396
+Yahoo! Products: 122886
+Arts & Humanities: 113533
+Beauty & Style: 104566
+Cars & Transportation: 98247
+Pregnancy & Parenting: 97489
+Food & Drink: 95519
+Pets: 90258
+Travel: 89783
+Games & Recreation: 80564
+Home & Garden: 73755
+Consumer Electronics: 72048
+News & Events: 34520
+Social Science: 34153
+Familia, Amor y Relaciones: 25556
+Música y Entretenimiento: 22268
+Sociedad y Cultura: 22217
+Amour et relations: 20832
+Família e Relacionamentos: 18547
+Local Businesses: 16120
+Dining Out: 14498
+Política y Gobierno: 12976
+Arte y Humanidades: 12236
+Sociedade e Cultura: 11730
+Salud y Belleza: 11550
+Actualités et événements: 11114
+Ciencias Sociales: 11051
+Entretenimento e Música: 10664
+Informatique et internet: 10323
+Computadoras e Internet: 10134
+Computadores e Internet: 9464
+Familia y Relaciones: 9302
+Musique, ciné, tv, loisirs: 9255
+Deportes: 9005
+Societé et culture: 8770
+Ciencias y Matemáticas: 8465
+Música y Ocio: 8237
+Politique et gouvernement: 8172
+Embarazo y Maternidad: 7895
+Environment: 7513
+Relazioni e famiglia: 7440
+Enseignement et référence: 6925
+Musica e intrattenimento: 6691
+Relaciones Familiares: 6591
+Educação e Referência: 6256
+Governo e Política: 6071
+Santé: 5889
+Ciências e Matemática: 5809
+Computer e Internet: 5539
+Ordenadores e Internet: 5433
+Saúde e Beleza: 5320
+Educación: 5173
+Yahoo! y sus Productos: 5110
+Educación y Formación: 4915
+Belleza y Estilo: 4824
+Internet y Computadoras: 4799
+Negocios y Finanzas: 4607
+Arts et sciences humaines: 4590
+Unterhaltung & Musik: 4405
+Entreprises et finance: 4364
+Computer & Internet: 4305
+Comer y Beber: 4112
+Mascotas: 4010
+Juegos y Recreación: 3983
+Società e culture: 3901
+Salud: 3753
+Artes e Humanidades: 3623
+Sciences et mathématiques: 3534
+Gesellschaft & Kultur: 3447
+Ciências Sociais: 3309
+Sport: 3307
+Sciences sociales: 3277
+Services Yahoo!: 3177
+Scienze sociali: 3166
+Viajes: 3073
+Esportes: 3043
+Beleza e Estilo: 2928
+Electrónica de Consumo: 2857
+Gesundheit: 2759
+Freunde & Familie: 2626
+Beauté et mode: 2620
+Salute: 2543
+Schule & Bildung: 2538
+Gravidez e Maternidade: 2503
+Belleza y Moda: 2491
+Bellezza e stile: 2388
+Scuola ed educazione: 2357
+Ciencia y Matemáticas: 2350
+Voyage: 2288
+Negócios e Finanças: 2253
+Negocios Locales: 2206
+Animaux: 2205
+Jeux et hobbies: 2171
+Maison et jardin: 2169
+Gastronomie et boisson: 2138
+Politica e governo: 2118
+Wissenschaft & Mathematik: 2075
+Grossesse et enfants: 2038
+Essen & Trinken: 2011
+Servizi Yahoo!: 2009
+Produtos do Yahoo!: 1909
+Autos y Transporte: 1907
+Animais de Estimação: 1887
+Automobile et transport: 1885
+Arte e cultura: 1878
+Jogos e Recreação: 1807
+Image et son: 1774
+Hogar y Jardinería: 1765
+Sozialwissenschaft: 1764
+Affari e finanza: 1747
+Eletrônicos: 1745
+Comidas e Bebidas: 1738
+Giochi e passatempi: 1700
+Automóviles y Transporte: 1643
+Politik & Verwaltung: 1608
+Juegos y Aficiones: 1547
+Ciencias sociales: 1487
+Tiere: 1481
+Viaggi: 1468
+Yahoo! Produkte: 1448
+Viagens: 1433
+Carros e Transportes: 1340
+Elettronica di consumo: 1241
+Autos, Transport & Verkehr: 1239
+Kunst & Geisteswissenschaft: 1220
+Haus & Garten: 1187
+Notizie ed eventi: 1184
+Mangiare e bere: 1165
+Reisen: 1153
+Wirtschaft & Finanzen: 1147
+Matematica e scienze: 1117
+Freizeit & Spiele: 1101
+Noticias y Eventos: 1085
+Animali da compagnia: 1078
+Gastronomía: 1076
+Productos Yahoo!: 1031
+Turismo: 986
+Yahoo!7 Products: 865
+Auto e trasporti: 824
+Productos Electrónicos: 785
+Autos y Medios de Transporte: 779
+Casa e Jardim: 759
+Gravidanza e genitori: 752
+Notícias e Eventos: 742
+Unterhaltungselektronik: 736
+Restaurantes: 716
+Noticias y Actualidad: 674
+Économie locale: 664
+Casa e giardino: 650
+Casa y Jardín: 599
+Nachrichten & Medien: 596
+Medio Ambiente: 552
+Schwangerschaft & Erziehung: 530
+Ausgehen: 504
+Electrónica de consumo: 449
+Ecologia e Meio Ambiente: 384
+Restaurants: 384
+Negócios Regionais: 369
+Environnement: 289
+Asia Pacific: 283
+Negozi ed aziende locali: 219
+Örtliche Unternehmen: 174
+Mangiare fuori: 173
+Umwelt: 111
+Ambiente: 37
+Asie Pacifique: 8
+Asien: 5
+Ásia: 2
+Estremo Oriente: 2

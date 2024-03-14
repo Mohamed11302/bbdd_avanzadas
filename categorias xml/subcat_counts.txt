@@ -1,614 +1,1546 @@
-None: 4475664
-Singles & Dating: 434
-Other - Business & Finance: 349
-Other - Family & Relationships: 335
-Religion & Spirituality: 295
-Other - Society & Culture: 165
-Music: 132
-Internet: 120
-Diseases & Conditions: 102
-Marriage & Divorce: 96
-Maintenance & Repairs: 93
-Video & Online Games: 84
-Diet & Fitness: 77
-General Health Care: 74
-Other - Entertainment: 74
-Polls & Surveys: 74
-Higher Education (University +): 72
-Other - Computers: 70
-United States: 69
-Programming & Design: 69
-Women's Health: 69
-Other - Food & Drink: 66
-Other - Education: 66
-Fashion & Accessories: 66
-Television: 65
-Other - Politics & Government: 64
-Careers & Employment: 63
-Homework Help: 63
-Football (Soccer): 63
-Celebrities: 58
-Cultures & Groups: 57
-Other - Health: 56
-Software: 55
-Yahoo! Answers: 53
-Jokes & Riddles: 52
-Cooking & Recipes: 51
-Other - Cars & Transportation: 50
-Primary & Secondary Education: 44
-Yahoo! Messenger: 42
-Friends: 40
-Law & Ethics: 40
-Words & Wordplay: 38
-Mathematics: 38
-Music & Music Players: 37
-Politics: 36
-Movies: 36
-Astronomy & Space: 35
-Other - Home & Garden: 35
-Books & Authors: 35
-Hardware: 34
-Skin & Body: 33
-Dogs: 33
-Other - Arts & Humanities: 33
-Other - Games & Recreation: 33
-Otros - Familia, Amor y Relaciones: 32
-Other - News & Events: 31
-Yahoo! Mail: 31
-Other - Pregnancy & Parenting: 31
-Philosophy: 31
-Beer, Wine & Spirits: 31
-Other - Beauty & Style: 30
-Men's Health: 29
-Renting & Real Estate: 28
-Newborn & Baby: 28
-Hair: 27
-Chemistry: 27
-Pregnancy: 27
-Mental Health: 27
-Other - Yahoo! Products: 27
-Computer Networking: 26
-Other - Pets: 26
-Comics & Animation: 26
-Car Makes: 25
-Immigration: 25
-Government: 25
-Trying to Conceive: 23
-Other - Science: 23
-Family: 22
-Security: 21
-Psychology: 21
-Biology: 20
-Military: 20
-Amour et relations - Divers: 20
-Religión y Espiritualidad: 20
-Cell Phones & Plans: 19
-Football (American): 19
-Other - Electronics: 19
-History: 19
-Mythology & Folklore: 19
-Solteiros e Namorando: 19
-Etiquette: 18
-Alternative Medicine: 18
-Physics: 18
-Visual Arts: 17
-Alternative Fuel Vehicles: 17
-Travel (General): 17
-Current Events: 17
-Garden & Landscape: 17
-Cleaning & Laundry: 17
-Special Education: 16
-Investing: 16
-Games & Gear: 16
-Small Business: 16
-Amigos: 16
-Otros - Sociedad y Cultura: 16
-Holidays: 15
-Europe (Continental): 15
-Personal Finance: 15
-Parenting: 15
-Outdoor Recreation: 15
-Baseball: 15
-Trivia: 15
-Cats: 15
-Languages: 14
-Wrestling: 14
-Earth Sciences & Geology: 13
-Other - Sports: 13
-Buying & Selling: 13
-Basketball: 13
-Matrimonios y Divorcios: 13
-Engineering: 12
-Decorating & Remodeling: 12
-Toddler & Preschooler: 12
-Advertising & Marketing: 12
-Makeup: 12
-Actualité et événements - Divers: 12
-Música: 12
-Corporations: 11
-Performing Arts: 11
-Hobbies & Crafts: 11
-Adolescent: 11
-Other - Dining Out: 10
-Auto Racing: 10
-United Kingdom: 10
-Do It Yourself (DIY): 10
-Outras - Sociedade e Cultura: 10
-Fútbol: 10
-Credit: 9
-Other - Social Science: 9
-Non-Alcoholic Drinks: 9
-Birds: 9
-Fantasy Sports: 9
-Dental: 9
-Religião e Espiritualidade: 9
-Solteros - Citas: 9
-Africa & Middle East: 8
-Teaching: 8
-Horoscopes: 8
-Taxes: 8
-Media & Journalism: 8
-Canada: 8
-Law Enforcement & Police: 8
-Mobile Phones & Plans: 8
-Célibat et rencontre: 8
-Televisión: 8
-Zoology: 7
-Magazines: 7
-Motorcycles: 7
-Other - Destinations: 7
-Grade-Schooler: 7
-Weddings: 7
-PDAs & Handhelds: 7
-My Yahoo!: 7
-Societé et culture - Divers: 7
-Otros - Política y Gobierno: 7
-Outras - Família e Relacionamentos: 7
-Encuestas y Sondeos de Opinión: 7
-Sociology: 6
-TVs: 6
-Studying Abroad: 6
-Gender & Women's Studies: 6
-Otros - Computadoras: 6
-Événements: 6
-Política: 6
-Informatique - Divers: 6
-Otros - Salud y Belleza: 6
-Insurance & Registration: 5
-Aircraft: 5
-Swimming & Diving: 5
-Dancing: 5
-Engagements & Weddings: 5
-Yahoo! Toolbar: 5
-Elections: 5
-Musique, ciné, tv, loisirs - Divers: 5
-Yahoo! Respuestas: 5
-Otros - Música y Entretenimiento: 5
-Yahoo! Questions/Réponses: 5
-Relazioni e Famiglia- Altro: 5
-Otros - Familia y Relaciones: 5
-Recetas de Cocina: 5
-Otros - Educación: 5
-Salud Masculina: 5
-Otros - Belleza y Estilo: 5
-Fidanzamento e matrimonio: 5
-India: 4
-Hockey: 4
-Financial Aid: 4
-Medicine: 4
-Reptiles: 4
-Ethnic Cuisine: 4
-Safety: 4
-Geography: 4
-Yahoo! 360: 4
-Caribbean: 4
-Weather: 4
-Latin America: 4
-Asia Pacific: 4
-Cycling: 4
-Yahoo! Groups: 4
-Entertaining: 4
-Car Audio: 4
-Civic Participation: 4
-Yahoo! Photos: 4
-Yahoo! Search: 4
-Programación y Diseño: 4
-Pesquisas e Opiniões: 4
-Logiciels: 4
-Solteros: 4
-Outras - Beleza e Estilo: 4
-Religions et spiritualité: 4
-Outras - Entretenimento: 4
-Politique et gouvernement - Divers: 4
-Savoir vivre: 4
-Governo: 4
-Otras - Ciencias Sociales: 4
-Cuidados Generales de la Salud: 4
-Musique: 4
-Standards & Testing: 4
-Cameras: 4
-Amitiés: 4
-Sonstiges - Essen & Trinken: 4
-Élections: 4
-Outros - Computadores: 4
-Leyes y Ética: 4
-Sociología: 4
-Gravidez: 4
-Land Phones: 3
-Quotations: 3
-Card Games: 3
-Volleyball: 3
-Board Games: 3
-Camcorders: 3
-Gambling: 3
-Golf: 3
-Other - Health & Beauty: 3
-Naissances et bébés: 3
-Lei e Ética: 3
-Beauté et mode - Divers: 3
-Yahoo! Respostas: 3
-Gobierno: 3
-Medias et journalisme: 3
-Notizie ed eventi - Altro: 3
-Dieta y Ponerse en Forma: 3
-Otras - Arte y Humanidades: 3
-Estados Unidos de América: 3
-Futilités: 3
-Otros - Gastronomía: 3
-Argentina: 3
-Família: 3
-Krankheiten & Beschwerden: 3
-Religion & Spiritualität: 3
-Philosophie: 3
-Diseño y Programación: 3
-Otros - Ordenadores: 3
-Intrattenimento - Altro: 3
-Adolescentes e Pré-Adolescentes: 3
-Outras - Governo e Política: 3
-Filosofía: 3
-Outras - Comidas e Bebidas: 3
-Outras - Ciências Humanas: 3
-Sciences sociales - Divers: 3
-Películas: 3
-Psicología: 3
-Videogames e Jogos Online: 3
-Química: 3
-Célébrités: 3
-Fast Food: 3
-Sonstiges - Politik: 3
-Sonstiges - Autos, Transport & Verkehr: 3
-Health & Well-Being: 3
-Martial Arts: 3
-Soins du corps: 3
-France: 2
-Anthropology: 2
-Mexico: 2
-Genealogy: 2
-Community Service: 2
-Boats & Boating: 2
-Yahoo! Shopping: 2
-Amusement Parks: 2
-Air Travel: 2
-Boxing: 2
-Commuting: 2
-Cricket: 2
-Ireland: 2
-Snooker & Pool: 2
-Filme: 2
-Saúde e Bem-Estar: 2
-Economía: 2
-Chistes y Acertijos: 2
-Toys: 2
-Idiomas: 2
-Ajuda para Lição de Casa: 2
-Otros - Relaciones Familiares: 2
-Física: 2
-Peinados y cuidado del Cabello: 2
-Otros - Coches y Transportes: 2
-Videogiochi: 2
-Theater & Acting: 2
-Giochi e passatempi - Altro: 2
-Télévision: 2
-Familia: 2
-Eduación Primaria y Secundaria: 2
-Sonstiges - Freizeit & Spiele: 2
-Otros - Arte y Humanidades: 2
-Outras - Produtos do Yahoo!: 2
-Médecine parallèle: 2
-Chistes y Humor: 2
-Tennis: 2
-Elettronica di consumo - Altro: 2
-Salud de la Mujer: 2
-Fußball: 2
-Otros - Negocios y Finanzas: 2
-Garten: 2
-Buscando Quedar Embarazada: 2
-Televisão: 2
-Università: 2
-Redes de Computadores: 2
-Dieta y estado Físico: 2
-Sciences et mathématiques - Divers: 2
-Otros - Electrónica: 2
-Videojuegos: 2
-Jeux et hobbies - Divers: 2
-Mathématiques: 2
-Telefonía Móvil: 2
-Perros: 2
-Cani: 2
-Jeux vidéos: 2
-Yahoo! Mobile: 2
-Botany: 2
-Australia: 2
-Sonstiges - Gesundheit: 2
-Religione e spiritualità: 2
-Jardinage: 2
-Animaux - Divers: 2
-Artes Visuales: 2
-Sociologie: 2
-Teléfonos Móviles y Planes: 2
-Decoração e Reformas: 2
-Teléfonos Celulares y Planes: 2
-Vídeojuegos: 2
-Santé masculine: 2
-Economics: 2
-Téléphonie mobile: 2
-Sonstiges - Schule & Bildung: 2
-Adolescentes y Pre Adolescentes: 2
-Otros - Juegos y Recreación: 2
-Vehículos de Combustible Alternativo: 2
-Afrique et Moyen-Orient: 2
-Geografía: 2
-Sonstiges - Wissenschaft: 2
-Ingeniería: 2
-Piadas e Charadas: 2
-Mitologia e Folclore: 2
-Peces: 2
-Nettoyage et entretien: 2
-Otros - Música y Ocio: 2
-Fish: 2
-Moda e Acessórios: 2
-Paternidad: 2
-Educación Superior: 2
-Cuidado de la Piel y el Cuerpo: 2
-Kochen & Rezepte: 2
-Cuidado Corporal: 2
-Single e appuntamenti: 2
-Mangiare e bere - Altro: 2
-Adolescentes: 2
-Libros y Autores: 2
-Enfermedades: 2
-Outras - Artes e Humanidades: 2
-Sonstiges - Computer: 2
-Otros - Comer y Beber: 2
-Santé - Divers: 2
-Sprachen: 2
-Carrière et emploi: 2
-Water Sports: 2
-Conhecimentos Gerais: 2
-Embassies & Consulates: 1
-Other - Local Businesses: 1
-Brazil: 1
-New Zealand: 1
-Yahoo!7 Messenger: 1
-Yahoo! Travel: 1
-Spain: 1
-Cruise Travel: 1
-Horse Racing: 1
-Handball: 1
-Insurance: 1
-Cinema: 1
-Encuestas y Sondeos de opinión: 1
-Scienze sociali - Altro: 1
-Computer - Altro: 1
-Moda y Accesorios: 1
-Carreiras e Empregos: 1
-Vins et spiritueux: 1
-Modes et accessoires: 1
-Pequeñas y Medianas empresas: 1
-Sicurezza: 1
-Musica e riproduttori musicali: 1
-Suíça: 1
-Jeux d'argent: 1
-Chimie: 1
-Voyage (Général): 1
-Nível Superior: 1
-Nível Fundamental e Médio: 1
-Programmierung & Design: 1
-Football (Canadian): 1
-Ciclismo: 1
-Educazione speciale: 1
-Pathologies: 1
-Sonstiges - Sozialwissenschaft: 1
-Parques de Diversão e Temáticos: 1
-Saúde Feminina: 1
-Outras - Negócios e Finanças: 1
-Outras - Jogos e Recreação: 1
-Alemania: 1
-Historia: 1
-Ambasciate e consolati: 1
-Promis: 1
-Reino Unido: 1
-Televisione: 1
-Téléphonie fixe: 1
-Dieta y Vida Sana: 1
-Motor Sports: 1
-Bandes dessinées et animation: 1
-Outras - Educação: 1
-Artes visuales: 1
-Trivialwissen: 1
-Otros Destinos Turísticos: 1
-Services Yahoo! - Divers: 1
-Eleições: 1
-Corpo e Pele: 1
-Prénoms: 1
-Politik: 1
-Enseignement - Divers: 1
-Giornalismo e media: 1
-Recreación al Aire Libre: 1
-Estudios a Distancia: 1
-Otros - Yahoo! y sus Productos: 1
-Jeux de mots: 1
-España: 1
-Outros - Animais de Estimação: 1
-Image et son - Divers: 1
-Physik: 1
-Économie locale - Divers: 1
-Royalty: 1
-Otros - Destinos: 1
-Politica e governo - Altro: 1
-Calcio: 1
-Culinária e Receitas: 1
-Umfragen & Abstimmungen: 1
-Celebridades y Famosos: 1
-Outras - Gravidez e Maternidade: 1
-Becas: 1
-Bücher & Autoren: 1
-Servicios a la Comunidad: 1
-Sonstiges - Kultur: 1
-Matrimonio e divorzio: 1
-Fuerzas Armadas: 1
-Entreprises: 1
-Police et application de la Loi: 1
-Redewendungen & Wortspiele: 1
-Arte e cultura - Altro: 1
-Sonstiges - Tiere: 1
-Auto e trasporti - Altro: 1
-Gravidanza: 1
-Enseigner: 1
-Combustíveis Alternativos: 1
-Sociologia: 1
-Publicidad y Marketing: 1
-Etiqueta e Estilo: 1
-Salud Mental: 1
-Artes Visuais: 1
-Botânica: 1
-Finanzas Personales: 1
-Sonstige Yahoo! Produkte: 1
-Affari e finanza - Altro: 1
-Embaixadas e Consulados: 1
-Marketing & Werbung: 1
-Réparation: 1
-Giardinaggio: 1
-Citas Famosas: 1
-Polícia e Aplicação da Lei: 1
-Ambassades et consulats: 1
-Physique: 1
-Salud Femenina: 1
-Geographie: 1
-Brasil: 1
-Cocina Étnica: 1
-Salute della donna: 1
-Divórcio: 1
-Tráfico: 1
-Cães: 1
-Automobile et transport - Divers: 1
-Cuestionarios: 1
-Otros - Noticias y Eventos: 1
-Hausaufgabenhilfe: 1
-Encuestas y sondeos: 1
-Examens, concours et diplômes: 1
-Musica: 1
-Otros - Transporte y Automóviles: 1
-Bateaux et navigation: 1
-Salute e bellezza - Altro: 1
-Medicina Alternativa: 1
-Salud mental: 1
-Cellulari e piani tariffari: 1
-Musik: 1
-Pelle e corpo: 1
-Elecciones: 1
-Yahoo! Gruppi: 1
-Créditos: 1
-Cerveza, Vino y Bebidas alcohólicas: 1
-Bebés y Recién Nacidos: 1
-Cuidados generales de la salud: 1
-Yahoo! Correo: 1
-Culture e gruppi: 1
-Actualidad: 1
-Teatro y Actuación: 1
-Altre destinazioni: 1
-Yahoo! Clever: 1
-Programação e Design: 1
-Pequeñas y Medianas Empresas: 1
-Mantenimiento y Reparación: 1
-Câmeras Fotográficas: 1
-Investimentos: 1
-Filosofia: 1
-Estudos sobre a Mulher: 1
-Celebridades: 1
-TiVO & DVRs: 1
-Mi Yahoo!: 1
-Jogos de Cartas: 1
-Otros - Noticias y Actualidad: 1
-Unterricht: 1
-Steuern: 1
-Maternelle: 1
-Antropologia: 1
-Amici: 1
-Aeronavegación: 1
-Salute mentale: 1
-Participación ciudadana: 1
-Grossesse: 1
-Caribe: 1
-Gatos: 1
-Soziologie: 1
-Matemáticas: 1
-Bürgerbeteiligung: 1
-Politique: 1
-Estudiar en el Extranjero: 1
-Enseignement primaire et secondaire: 1
-Danse: 1
-Sonstiges - Unterhaltung: 1
-Feiertage: 1
-Outras - Ciências: 1
-Insegnamento a domicilio: 1
-Restaurants - Divers: 1
-Sports - Divers: 1
-Juegos de Cartas: 1
-Mode & Accessoires: 1
-Otros - Comer Afuera: 1
-Ingenieurwesen: 1
-Home Schooling: 1
-Haut & Körper: 1
-Cérémonies: 1
-Yahoo!7 Mail: 1
-Recettes de cuisine: 1
-Vietnam: 1
-Noivado e Casamento: 1
-Sonstige Reiseziele: 1
-Estados Unidos: 1
-Idiomas e Línguas: 1
-Otros - Embarazo y Maternidad: 1
-Società e culture - Altro: 1
-Preschool: 1
-Boissons sans alcool: 1
-Biología: 1
-Doenças e Patologias: 1
-Recherche: 1
-Sécurité: 1
-Zoología: 1
-Tenis: 1
-Pesci: 1
-Salud masculina: 1
-Sonstiges - Freunde & Familie: 1
-Cinéma: 1
-Spazio e astronomia: 1
-Radfahren: 1
-Vegetarian & Vegan: 1
-Internationale Küche: 1
-Geologia e Scienze della Terra: 1
-Grupos y Culturas: 1
-Theater & Schauspiel: 1
-Entreprises et finance - Divers: 1
-Otros - Deportes: 1
-Otras - Ciencias: 1
-Mariage et divorce: 1
-Celebrità: 1
-Alkoholische Getränke: 1
-Outras - Esportes: 1
-Livres et auteurs: 1
-Mythologie & Folklore: 1
-Italy: 1
-Deutschland: 1
-Arts visuels: 1
-Yahoo! Fotos: 1
+None: 4482757
+Singles & Dating: 240725
+Other - Business & Finance: 138301
+Music: 138259
+Other - Family & Relationships: 133031
+Religion & Spirituality: 124964
+Internet: 107081
+Other - Society & Culture: 74908
+Friends: 60947
+Television: 57827
+Software: 56568
+Movies: 54714
+Homework Help: 54439
+Diseases & Conditions: 49582
+Polls & Surveys: 49055
+Marriage & Divorce: 48184
+Diet & Fitness: 45645
+United States: 43630
+Video & Online Games: 43581
+Maintenance & Repairs: 42384
+Celebrities: 42343
+Hardware: 40846
+Dogs: 40273
+General Health Care: 40072
+Women's Health: 40026
+Other - Entertainment: 39708
+Other - Computers: 39000
+Other - Education: 38728
+Careers & Employment: 37686
+Yahoo! Answers: 36605
+Jokes & Riddles: 36472
+Other - Food & Drink: 35516
+Other - Health: 34874
+Football (Soccer): 34830
+Higher Education (University +): 34266
+Programming & Design: 33227
+Cooking & Recipes: 31830
+Pregnancy: 31266
+Law & Ethics: 30885
+Cultures & Groups: 30573
+Mathematics: 29803
+Politics: 29502
+Yahoo! Mail: 28340
+Hair: 27414
+Men's Health: 25479
+Fashion & Accessories: 25361
+Skin & Body: 24548
+Other - Politics & Government: 24403
+Family: 23472
+Yahoo! Messenger: 23242
+Philosophy: 23008
+Books & Authors: 22544
+Biology: 21191
+Mental Health: 20756
+History: 20494
+Chemistry: 20063
+Government: 20027
+Words & Wordplay: 18826
+Physics: 18635
+Car Makes: 18592
+Languages: 17928
+Other - Home & Garden: 17915
+Other - Cars & Transportation: 17596
+Other - Beauty & Style: 17357
+Other - Pets: 17346
+Cell Phones & Plans: 17314
+Military: 17239
+Cats: 17211
+Psychology: 16536
+Visual Arts: 16434
+Computer Networking: 16244
+Security: 16240
+Football (American): 15804
+Immigration: 15678
+Amigos: 15558
+Other - Science: 15511
+Other - Arts & Humanities: 15445
+Other - News & Events: 14760
+Holidays: 14734
+Other - Yahoo! Products: 14600
+Small Business: 14578
+Primary & Secondary Education: 14564
+Etiquette: 14502
+Astronomy & Space: 14359
+Renting & Real Estate: 14031
+Basketball: 14017
+Other - Games & Recreation: 13982
+Trivia: 13980
+Garden & Landscape: 13897
+Music & Music Players: 13829
+Comics & Animation: 13462
+Investing: 13313
+Newborn & Baby: 13256
+Current Events: 12818
+Other - Sports: 12794
+Música: 12504
+Amour et relations - Divers: 12492
+Beer, Wine & Spirits: 12401
+Personal Finance: 11843
+Baseball: 11745
+Adolescent: 11647
+Engineering: 11117
+Weddings: 10932
+Parenting: 10718
+Trying to Conceive: 10142
+Decorating & Remodeling: 10090
+Otros - Sociedad y Cultura: 9958
+Otros - Familia, Amor y Relaciones: 9958
+Cleaning & Laundry: 9953
+Mythology & Folklore: 9922
+Earth Sciences & Geology: 9918
+Other - Electronics: 9681
+Teaching: 9644
+Dental: 9605
+Other - Pregnancy & Parenting: 9413
+Games & Gear: 9289
+Credit: 9031
+Buying & Selling: 9000
+Advertising & Marketing: 8927
+Makeup: 8844
+Alternative Medicine: 8545
+Travel (General): 8040
+Hobbies & Crafts: 7805
+Outdoor Recreation: 7644
+Medicine: 7626
+Taxes: 7605
+Alternative Fuel Vehicles: 7513
+United Kingdom: 7508
+Toddler & Preschooler: 7477
+Asia Pacific: 7368
+Solteiros e Namorando: 7171
+Do It Yourself (DIY): 7094
+Geography: 7046
+Media & Journalism: 6942
+Corporations: 6882
+Religión y Espiritualidad: 6788
+Zoology: 6768
+Horoscopes: 6598
+Wrestling: 6516
+India: 6491
+Performing Arts: 6331
+Law Enforcement & Police: 6323
+Fútbol: 6283
+Solteros - Citas: 6270
+Motorcycles: 6240
+Other - Destinations: 6217
+Special Education: 6126
+Fish: 6122
+Other - Social Science: 5973
+Non-Alcoholic Drinks: 5754
+Community Service: 5613
+Birds: 5543
+Yahoo! 360: 5522
+Cameras: 5469
+TVs: 5288
+Cricket: 5250
+Auto Racing: 5201
+Europe (Continental): 5137
+Événements: 5077
+Política: 5026
+Actualité et événements - Divers: 4851
+Outras - Sociedade e Cultura: 4783
+Weather: 4717
+Religião e Espiritualidade: 4625
+Quotations: 4613
+Psicología: 4596
+Sociology: 4524
+Outras - Família e Relacionamentos: 4417
+Ethnic Cuisine: 4404
+Studying Abroad: 4328
+My Yahoo!: 4219
+Africa & Middle East: 4169
+Canada: 4066
+Reptiles: 4052
+Financial Aid: 4006
+Fantasy Sports: 3922
+Hockey: 3834
+Aircraft: 3816
+Car Audio: 3771
+Civic Participation: 3757
+Matrimonios y Divorcios: 3728
+Elections: 3684
+Entertaining: 3664
+Genealogy: 3644
+Televisión: 3616
+Card Games: 3577
+Safety: 3439
+Societé et culture - Divers: 3423
+Toys: 3390
+Gambling: 3323
+Amitiés: 3276
+Insurance & Registration: 3271
+Economics: 3247
+Board Games: 3215
+Other - Dining Out: 3195
+Football: 3130
+Filosofía: 3128
+Otros - Computadoras: 3098
+Yahoo! Search: 3069
+Otros - Familia y Relaciones: 3043
+Yahoo! Respuestas: 3017
+Dancing: 2987
+Insurance: 2985
+Encuestas y Sondeos de Opinión: 2964
+Australia: 2959
+Otros - Salud y Belleza: 2933
+Musique: 2894
+Golf: 2877
+Célibat et rencontre: 2865
+Sociología: 2816
+Futilités: 2799
+Otros - Educación: 2788
+France: 2735
+Botany: 2698
+Caribbean: 2691
+Mobile Phones & Plans: 2677
+Health & Well-Being: 2651
+Informatique - Divers: 2643
+Yahoo! Photos: 2624
+Gender & Women's Studies: 2603
+Musica: 2596
+Enfermedades: 2596
+Commuting: 2554
+Embarazo: 2538
+Familia: 2507
+Air Travel: 2504
+Other - Local Businesses: 2480
+Otros - Política y Gobierno: 2467
+Películas: 2450
+Mexico: 2433
+Otros - Belleza y Estilo: 2405
+Grade-Schooler: 2366
+Tennis: 2335
+Física: 2330
+Yahoo! Toolbar: 2316
+Philosophie: 2311
+Theater & Acting: 2298
+Élections: 2290
+Magazines: 2265
+Yahoo! Groups: 2253
+Religions et spiritualité: 2231
+Futebol: 2211
+Santé - Divers: 2198
+Psicologia: 2189
+Solteros: 2134
+PDAs & Handhelds: 2131
+Home Theater: 2118
+Amici: 2115
+Royalty: 2095
+Logiciels: 2082
+Libros y Autores: 2061
+Psychologie: 2014
+Politique: 1980
+Yahoo! Questions/Réponses: 1964
+Vegetarian & Vegan: 1950
+Società e culture - Altro: 1939
+Perros: 1935
+Historia: 1917
+Química: 1878
+Pesquisas e Opiniões: 1840
+Otras - Ciencias Sociales: 1828
+Camcorders: 1821
+Matemáticas: 1815
+Italy: 1806
+Outras - Entretenimento: 1800
+Boxing: 1798
+Gobierno: 1779
+Outros - Computadores: 1770
+Computer - Altro: 1745
+Olympics: 1738
+Cycling: 1719
+Relazioni e Famiglia- Altro: 1715
+Boats & Boating: 1708
+Other - Health & Beauty: 1707
+Swimming & Diving: 1702
+Amusement Parks: 1691
+Otros - Música y Ocio: 1679
+Télévision: 1657
+Sonstiges - Kultur: 1655
+Otros - Arte y Humanidades: 1610
+Martial Arts: 1591
+Governo: 1584
+Musik: 1578
+Land Phones: 1574
+Fidanzamento e matrimonio: 1567
+Recetas de Cocina: 1562
+Salud de la Mujer: 1522
+Winter Sports: 1511
+México: 1493
+Embassies & Consulates: 1483
+Latin America: 1470
+Televisão: 1451
+Single e appuntamenti: 1449
+Otros - Ciencias Sociales: 1439
+Otros - Embarazo y Maternidad: 1421
+Otros - Relaciones Familiares: 1417
+Nível Superior: 1381
+Videojuegos: 1374
+Otros - Música y Entretenimiento: 1371
+Chistes y Humor: 1367
+Celebridades: 1363
+Medicina: 1355
+Salud Masculina: 1352
+Carrière et emploi: 1343
+Otros - Comer y Beber: 1329
+Moda y Accesorios: 1319
+Home Schooling: 1315
+Outras - Governo e Política: 1307
+Conhecimentos Gerais: 1307
+Programación y Diseño: 1306
+Cinéma: 1302
+Matériel: 1286
+Cuidado Corporal: 1275
+Anthropology: 1270
+Mantenimiento y Reparación: 1260
+Família: 1257
+Encuestas y sondeos: 1250
+Musique, ciné, tv, loisirs - Divers: 1245
+Politique et gouvernement - Divers: 1237
+Spain: 1236
+Filosofia: 1224
+Germany: 1212
+Yahoo! Shopping: 1212
+Fast Food: 1210
+Educación Superior: 1209
+Medias et journalisme: 1186
+Otros - Juegos y Recreación: 1184
+TiVO & DVRs: 1180
+Yahoo! Respostas: 1180
+Grupos y Culturas: 1180
+Leyes y Ética: 1176
+Noivado e Casamento: 1170
+Water Sports: 1165
+Sociologia: 1164
+Seguridad: 1162
+Horse Racing: 1160
+Engagements & Weddings: 1150
+Savoir vivre: 1135
+Idiomas: 1128
+Comics y Animación: 1125
+Artes Visuales: 1124
+Outras - Ciências Humanas: 1107
+Biología: 1106
+Gravidez: 1103
+Ireland: 1078
+TV: 1078
+Piadas e Charadas: 1077
+Cinema: 1072
+Salud Mental: 1069
+Outras - Saúde e Beleza: 1069
+Famille: 1069
+Matemática: 1068
+Outras - Educação: 1057
+Bodas y Compromisos: 1052
+Standards & Testing: 1048
+Argentina: 1046
+Participación Ciudadana: 1036
+Mariage et divorce: 1030
+Calcio: 1018
+Televisione: 1017
+Brasil: 1015
+Rugby: 1011
+Sonstiges - Computer: 995
+Ayuda con los Estudios: 992
+Doenças e Patologias: 991
+Sonstiges - Gesundheit: 970
+Film: 969
+Saúde Feminina: 952
+Videogames e Jogos Online: 942
+Otros - Negocios y Finanzas: 927
+Fußball: 924
+Salute - Altro: 919
+Empresas: 913
+Ingeniería: 909
+Langues: 902
+Animaux - Divers: 902
+Santé féminine: 884
+Beauté et mode - Divers: 872
+Salute e bellezza - Altro: 871
+Yahoo! Clever: 866
+Biologia: 859
+Outras - Beleza e Estilo: 856
+Eduación Primaria y Secundaria: 850
+Sonstiges - Freunde & Familie: 846
+Corpo e Pele: 844
+Droit: 843
+Saúde e Bem-Estar: 841
+Outras - Artes e Humanidades: 839
+Preschool: 836
+Otros - Ordenadores: 832
+Jeux vidéos: 832
+Politica e governo - Altro: 828
+Gatos: 814
+Cuidados Generales de la Salud: 814
+Vídeojuegos: 807
+Lei e Ética: 805
+Études supérieures: 800
+Sciences sociales - Divers: 791
+Blagues et humour: 783
+Gastronomie et boisson - Divers: 780
+Religione e spiritualità: 774
+Diseño y Programación: 773
+Cães: 763
+Redes informáticas: 758
+Dieta y Vida Sana: 758
+Volleyball: 752
+Entreprises: 751
+Elecciones: 741
+Otros - Electrónica: 738
+Yahoo! Correo: 738
+Sonstiges - Essen & Trinken: 736
+Italia: 727
+Bebés y Recién Nacidos: 725
+Artes Escénicas: 724
+Livres et auteurs: 723
+Sonstiges - Schule & Bildung: 720
+Recettes de cuisine: 717
+Jeux et hobbies - Divers: 710
+Servicios a la Comunidad: 703
+Giochi e passatempi - Altro: 702
+Yahoo! Message Boards: 700
+Curiosità: 698
+Teléfonos Celulares y Planes: 694
+Otros - Mascotas: 693
+Inmigración: 691
+História: 690
+Otros - Entretenimiento: 690
+Actualidad: 688
+Intrattenimento - Altro: 685
+Outras - Comidas e Bebidas: 685
+España: 680
+Hobbies y Aficiones: 678
+Sociologie: 676
+Alemania: 674
+Religion & Spiritualität: 673
+Videogiochi: 670
+Scienze sociali - Altro: 669
+Nível Fundamental e Médio: 667
+Economía: 664
+Otros - Deportes: 663
+Sonstiges - Tiere: 660
+Sécurité: 658
+Programação e Design: 657
+Horóscopos: 656
+Soins du corps: 656
+Cabello: 652
+Cabelo: 651
+Lavoro e carriera: 646
+Célébrités: 645
+Geografía: 642
+Otras - Arte y Humanidades: 636
+Jeux de mots: 634
+Entreprises et finance - Divers: 633
+Santé mentale: 632
+Dieta y Ponerse en Forma: 630
+Teen & Preteen: 627
+Salud: 624
+Ajuda para Lição de Casa: 623
+Arts et sciences humaines - Divers: 612
+Outras - Jogos e Recreação: 610
+Folclore y Mitología: 606
+Deutschland: 595
+Rail: 587
+Adolescentes: 577
+Programmation: 577
+Mathématiques: 574
+Otras - Ciencias: 571
+Snooker & Pool: 569
+Histoire: 567
+Video Juegos: 558
+Krankheiten & Beschwerden: 558
+Notizie ed eventi - Altro: 557
+Moda e accessori: 557
+Culinária e Receitas: 555
+Filme: 555
+Astronomía: 555
+Baby Names: 552
+Festivos: 551
+Segurança: 551
+Biologie: 547
+Idiomas e Línguas: 544
+Antropología: 544
+Adolescentes y Pre Adolescentes: 540
+Physique: 537
+Enseignement primaire et secondaire: 537
+Maquillaje: 534
+Salud Femenina: 533
+Cine: 531
+Maison et Jardin - Divers: 524
+Enseignement - Divers: 516
+Modes et accessoires: 516
+Pelle e corpo: 514
+Chiens: 513
+Arte e cultura - Altro: 513
+Pathologies: 510
+Kochen & Rezepte: 507
+Libri ed autori: 506
+Outras - Destinos: 504
+Image et son - Divers: 502
+Grupos e Culturas: 499
+Outros - Eletrônicos: 498
+Educazione - Altro: 498
+Telefones Celulares: 495
+Politik: 494
+Compra y Venta: 492
+Cerveza, Vino y Bebidas Alcohólicas: 491
+Automobiles: 489
+Grossesse: 488
+Cruise Travel: 484
+Moda e Acessórios: 483
+Sonstiges - Freizeit & Spiele: 483
+Eleições: 482
+Encuestas y Sondeos de opinión: 479
+Sonstiges - Sozialwissenschaft: 479
+Participação Civil: 476
+Medicinas Alternativas: 466
+Gouvernement: 465
+Vehículos de Combustible Alternativo: 464
+Diététique et fitness: 463
+Attualità: 463
+Adolescentes e Pré-Adolescentes: 462
+Outras - Negócios e Finanças: 461
+Barzellette e indovinelli: 460
+Cellulari e piani tariffari: 458
+Ensino e Instrução: 456
+Freunde: 454
+Outros - Animais de Estimação: 453
+Mangiare e bere - Altro: 451
+Livros e Autores: 449
+Astronomia e Espaço: 448
+Outras - Ciências: 447
+Otros - Hogar y Jardinería: 444
+Nettoyage et entretien: 441
+Football (Australian): 439
+Sprachen: 438
+Familie: 436
+Università: 434
+Coiffure: 434
+Chats: 433
+Mi Yahoo!: 429
+Santé masculine: 429
+Studi sulle donne: 428
+Arts visuels: 426
+Automobile et transport - Divers: 426
+Cani: 426
+Sonstiges - Autos, Transport & Verkehr: 426
+Geografia: 424
+Umfragen & Abstimmungen: 420
+Sonstiges - Unterhaltung: 420
+Carreiras e Empregos: 418
+Yahoo! Widgets: 417
+Otros - Destinos: 415
+Teatro y Actuación: 414
+Outros - Carros e Transportes: 413
+Cucina e ricette: 410
+Empleo: 410
+Estudios Sobre la Mujer: 408
+Limpieza: 408
+Cultures et groupes: 405
+Salud de la mujer: 402
+Otros - Gastronomía: 402
+Schule: 401
+Otros - Coches y Transportes: 399
+Soins: 397
+Otros - Noticias y Eventos: 395
+Réseau informatique: 395
+Recht & Ethik: 394
+Sonstiges - Haus & Garten: 393
+Outras - Gravidez e Maternidade: 391
+Haut & Körper: 390
+Saúde Masculina: 388
+Inversiones: 388
+Brazil: 387
+Combustíveis Alternativos: 384
+Medicina Alternativa: 383
+Otros - Transporte y Automóviles: 380
+Salute mentale: 380
+Corazón: 380
+Yahoo! Local: 378
+Téléphonie mobile: 376
+Dieta y estado Físico: 375
+Teléfonos Móviles y Planes: 374
+Dietas e Educação Física: 372
+Otros - Juegos y Aficiones: 372
+Cómo quedarme embarazada: 372
+Lingue: 370
+Witze & Rätsel: 370
+Serviço Social: 368
+Famiglia: 366
+Immobilier: 366
+Jardinage: 365
+Cabellos: 363
+Fuerzas Armadas: 360
+Mode & Accessoires: 357
+Telefonía Móvil: 352
+Economia: 350
+Bricolage: 349
+Theatre & Acting: 348
+Otros - Yahoo! y sus Productos: 348
+Cartoni animati e fumetti: 346
+Celebridades y Famosos: 342
+Antropologia: 338
+Celebrità: 337
+Polícia e Aplicação da Lei: 337
+Politici: 336
+Marcas de Autos: 335
+Psyche: 335
+Promis: 334
+Reproductores de Música: 334
+Sicurezza: 333
+Motor Sports: 332
+Auto e trasporti - Altro: 332
+Sciences de la vie et de la terre: 331
+Saúde Mental: 331
+Adolescencia: 330
+Artes Visuais: 329
+Viajes (General): 328
+Physik: 325
+Sonstiges - Politik: 325
+Yahoo!7 Answers: 323
+Décoration: 320
+América Latina: 319
+Chimie: 319
+Astronomie et espace: 316
+Recetas de cocina: 316
+Gestion personnelle: 316
+Sonstiges - Wissenschaft: 316
+Cuidado de la Piel y el Cuerpo: 315
+Programmierung & Design: 314
+Educación Universitaria y Post Grados: 313
+Services Yahoo! - Divers: 312
+Civisme: 312
+Voyage (Général): 309
+Switzerland: 306
+Redes de Computadores: 306
+Naissances et bébés: 306
+Bandes dessinées et animation: 306
+Pedagogía: 304
+Trivialwissen: 304
+Zoología: 304
+Programmazione e Design: 304
+Vietnam: 302
+Acconciature: 300
+Destinations - Divers: 300
+Mitologia e Folclore: 299
+Cómics y Animación: 299
+Medios y Periodismo: 299
+Sports - Divers: 299
+Beruf & Karriere: 298
+Otros - Yahoo! y sus Products: 297
+Soziologie: 296
+Outras - Notícias e Eventos: 295
+Salute della donna: 294
+Primaria y Secundaria: 293
+Feriados e Datas Comemorativas: 291
+Sciences et mathématiques - Divers: 291
+Impuestos: 290
+Véhicules propres: 289
+Enseignement spécialisé: 289
+Cuestionarios: 288
+Quadrinhos e Animação: 288
+Cuidado corporal: 286
+Outras - Esportes: 286
+Empleos: 286
+Afrique et Moyen-Orient: 283
+Sonstiges - Beauty & Style: 283
+Conception: 282
+Buscando Quedar Embarazada: 282
+Sonstiges - Wirtschaft & Finanzen: 281
+Peces: 281
+Mythologie et folklore: 281
+Police et application de la Loi: 277
+Culture e gruppi: 277
+Créditos: 275
+Otras Ciencias: 273
+Grossesse et enfants - Divers: 273
+Altre destinazioni: 273
+Enseñanza: 272
+Decoración: 272
+Jornalismo e Mídia: 271
+Lucha Libre: 270
+Animali da compagnia - Altro: 270
+Hunde: 269
+Enquêtes et sondages: 268
+Salud masculina: 267
+Otros - Noticias y Actualidad: 266
+Odontología: 265
+Tentando Engravidar: 265
+Consertos e Manutenção: 264
+Computer- und Videospiele: 264
+Finanzas Personales: 260
+Servizi Yahoo! - Altro: 259
+Mathematik: 257
+Moto: 256
+Legge ed etica: 255
+Protocolo: 254
+Scuole primarie e secondarie: 253
+Économie: 252
+Marketing y Publicidad: 252
+Yahoo! Real Estate: 249
+Geschichte: 249
+Chistes y Acertijos: 249
+Sicherheit: 249
+Redewendungen & Wortspiele: 248
+Aves e Pássaros: 247
+Etiqueta e Estilo: 246
+Matematica: 245
+Tarea Escolar: 245
+Examens, concours et diplômes: 244
+Dieta e fitness: 242
+Estados Unidos de América: 240
+Citations: 239
+Pequeñas y Medianas Empresas: 239
+Sonstiges - Nachrichten & Medien: 238
+Outras - Produtos do Yahoo!: 237
+Malattie e disfunzioni: 237
+Katzen: 235
+Adolescentes y pre Adolescentes: 235
+Vins et spiritueux: 235
+Salute dell'uomo: 234
+Wartung & Reparatur: 234
+Waschen & Reinigen: 233
+Ayuda con los estudios: 233
+Sonstige Sportarten: 232
+New Zealand: 230
+Genealogía: 230
+Estudos sobre a Mulher: 230
+Hausaufgabenhilfe: 229
+Garten: 229
+Handys: 229
+Matrimonio e divorzio: 228
+Économie locale - Divers: 227
+Gatti: 226
+Mitología y Folclore: 226
+Loisirs créatifs: 226
+Viaggi (Generale): 226
+Astronomía y Espacio: 224
+Arti visive: 223
+Participación Cívica: 223
+Cerveja, Vinho e Bebidas: 223
+Sonstige Yahoo! Produkte: 223
+Bücher & Autoren: 221
+Investissement: 221
+Austria: 220
+Étudier à l'étranger: 220
+Singapore: 219
+Géographie: 219
+Preescolar: 219
+Embajadas y Consulados: 217
+Sonstige Reiseziele: 217
+Publicité et marketing: 216
+Motos: 215
+Affari e finanza - Altro: 214
+Alkoholische Getränke: 214
+Aves: 212
+Petite enfance: 212
+Arreglos y Mecánicos: 210
+Astronomie & Raumfahrt: 209
+Finanças Pessoais: 209
+Testes e Padrões: 207
+Bebidas sin Alcohol: 207
+Outras - Casa e Jardim: 204
+Anthropologie: 204
+Engenharia: 204
+Armée: 203
+Feiertage: 203
+Motocicletas: 202
+Divórcio: 201
+Danza: 200
+Casa e giardino - Altro: 200
+Getränke: 200
+Tenis: 199
+Aktuelle Themen: 198
+Yahoo! Travel: 197
+Services communautaires: 197
+Storia: 196
+Soutien scolaire: 195
+Salud mental: 195
+Revistas: 194
+Paternidad: 193
+Éducation: 193
+Adolescenza: 193
+Médecine parallèle: 193
+Medizinische Versorgung: 193
+Unterricht: 192
+Pequenas Empresas: 191
+Educación Primaria y Secundaria: 191
+Enseigner: 191
+Entretenimiento: 190
+Otros - Autos y Medios de Transporte: 190
+Otros - Negocios Locales: 189
+Apuestas: 188
+Buscando quedar embarazada: 186
+Hobby: 185
+Cocina Étnica: 185
+Médecine: 185
+Hochschule: 184
+Policía: 183
+Dentition: 183
+Estados Unidos: 183
+Ciências da Terra: 183
+Hobbys: 183
+Festività: 180
+Viajes en Avión: 180
+Educación Especial: 180
+Videogames e Acessórios: 179
+Juegos de Mesa: 179
+Artes visuales: 177
+Appareil photo: 177
+Eventos Atuais: 176
+Telefonía Móvil y Planes: 176
+Impôts: 176
+Hazlo tu Mismo: 176
+Estudiar en el Extranjero: 174
+Autohersteller: 174
+Sonstiges - Kunst & Geisteswissenschaften: 174
+Artes Marciales: 174
+Maintenance et réparation: 174
+Elettronica di consumo - Altro: 173
+Zoologia: 172
+Réparation: 170
+Geología: 170
+Fitness & Diäten: 169
+Yahoo!7 Mail: 167
+Jardinería: 167
+Vegetariana: 167
+Geographie: 167
+Otros - Yahoo! y sus products: 166
+Peinados y cuidado del Cabello: 166
+Frauen: 166
+Aziende e imprese: 165
+Militares: 165
+Giornalismo e media: 164
+Botánica: 163
+Chemie: 163
+Insegnamento: 163
+Parentalité: 163
+Béisbol: 161
+Medien & Journalismus: 160
+Câmeras Fotográficas: 160
+Citações: 159
+Servicios Comunitarios: 159
+Trivial: 159
+Investimentos: 159
+Frisur: 158
+Fisica: 158
+Internationale Küche: 158
+Condition féminine: 158
+Études à distance: 157
+Participación ciudadana: 157
+Cuisine ethnique: 157
+Ehe & Scheidung: 157
+Yahoo! Fotos: 156
+Sport - Altro: 156
+Baloncesto: 156
+Otros - Casa y Jardín: 155
+Meteorología: 154
+Otros - Electrónicos: 154
+Recherche: 154
+Birra, vino e alcolici: 153
+Yahoo! Autos: 152
+Oiseaux: 151
+Meu Yahoo!: 151
+Otros Destinos Turísticos: 151
+Audio et audio portable: 149
+Cuidados generales de la salud: 148
+Ambassades et consulats: 148
+Medicinas alternativas: 148
+Realeza: 148
+Crédit: 147
+Home Theatre: 146
+Otras ciencias: 146
+Voyage par avion: 145
+Prüfungen & Tests: 145
+Etikette: 144
+Unterhaltsames: 144
+Männer: 144
+PME / PMI: 144
+Jardinagem e Paisagismo: 144
+Ciclismo: 142
+Juegos de Cartas: 142
+Servicios a la comunidad: 142
+Maquillage: 142
+Gravidanza: 142
+Francia: 142
+Bebês e Recém-Nascidos: 141
+Verlobung & Heirat: 141
+Football (Canadian): 140
+Vögel: 140
+Carreras y Empleos: 140
+Aviação: 138
+Achats et ventes: 138
+États-Unis: 137
+Buscando el Embarazo: 137
+Ciencias Alternativas: 136
+Pulizia e igiene: 135
+Alternative: 134
+Jeux d'argent: 134
+Caribe: 134
+Decoração e Reformas: 134
+Sondaggi e ricerche di mercato: 134
+Yahoo!7 Messenger: 132
+Horóscopo: 132
+Concepimento e fecondazione: 132
+Immobiliare: 132
+Frauenforschung: 131
+Partecipazione civica: 131
+Compra e Venda: 131
+Juguetes: 130
+USA: 130
+Juegos de palabras: 130
+Multikultur: 129
+Otros - Automóviles y Transporte: 129
+Teatro e Representação: 128
+Propaganda e Marketing: 126
+Arts vivants: 125
+Odontologia: 124
+Ayuda Financiera: 124
+Europe (Continentale): 123
+Estudios de Género: 123
+Equipamentos de Som: 122
+Protocolo y Buenos Modales: 122
+Feriados y dias Festivos: 121
+Oroscopo: 121
+Alternative Medizin: 121
+Heimwerken: 121
+Estudios sobre la mujer: 120
+Computernetzwerk: 119
+Poissons: 118
+Chimica: 118
+Verwaltung: 118
+Juegos de Palabras: 117
+Running: 117
+Schwangerschaft: 117
+Bebidas Não-Alcoólicas: 117
+Mitologia e folclore: 116
+Spazio e astronomia: 115
+Sonstiges - Unterhaltungselektronik: 115
+Mythologie & Folklore: 115
+Fútbol Américano: 114
+Fiestas de Casamiento y Compromiso: 113
+Yahoo! Grupos: 113
+Investimenti: 113
+Assurances: 112
+Finanza personale: 112
+Peixes: 112
+Nombres para bebés: 111
+Periodismo y Medios de Comunicación: 111
+Persönliche Finanzen: 111
+Crédito: 111
+Alternative Antriebe: 111
+Assistenza sanitaria: 110
+Jardinería y Paisajismo: 110
+Europa: 109
+Estudios a Distancia: 109
+Dança: 108
+Aeronavegación: 108
+Reisen (allgemein): 108
+Fernseher: 107
+Comics & Zeichentrick: 107
+Faça Você Mesmo: 107
+Dekorieren & Renovieren: 107
+Audio para Autos: 106
+Zahnpflege: 103
+Sonstiges - Ausgehen: 103
+Zoologie: 103
+Educação Especial: 103
+Marketing e pubblicità: 103
+Boissons sans alcool: 103
+Cerveza, Vino y Bebidas alcohólicas: 102
+Trajets: 102
+Bebidas Alcohólicas: 101
+Botânica: 101
+Servizi di comunità: 101
+Bull Fighting: 101
+Mio Yahoo!: 100
+Restaurants - Divers: 100
+Pájaros: 100
+Camáras de fotos: 100
+Cérémonies: 100
+Neugeborene & Babys: 99
+Flugzeuge: 99
+Aviation: 99
+Seguros: 99
+Europa Continental: 98
+Bricolaje: 98
+Militär: 98
+Fische: 98
+Jouets: 97
+Bildende Kunst: 97
+Musica e riproduttori musicali: 96
+Hágalo usted Mismo: 96
+Neonati e bambini: 96
+Matematica e scienze - Altro: 95
+Console per videogiochi: 95
+Canadá: 95
+Météorologie: 94
+Maquiagem: 94
+Tasse: 94
+Jeux de société: 93
+Imóveis: 93
+Mon Yahoo!: 92
+Parole e giochi di parole: 92
+Lavanderia e Limpeza: 91
+Otros - Productos Yahoo!: 90
+Reti: 90
+Musik & Player: 89
+Frases Celébres: 89
+Decoración y Remodelación: 89
+Estudos no Exterior: 88
+Vehículos de combustible alternativo: 88
+Fêtes: 88
+Parasciences: 88
+Other - Yahoo!7 Products: 87
+Théâtre: 87
+Recevoir: 86
+Répteis: 86
+Fabricantes de coches: 86
+Firmen: 86
+Handball: 85
+Boxeo: 85
+Asien: 85
+Outras - Negócios Regionais: 84
+Medizin: 84
+Artes Marciais: 84
+Asie Pacifique: 84
+Jeux de cartes: 83
+Wetter: 83
+Cyclisme: 82
+Galateo: 82
+Fai-da-te: 82
+Vôlei: 82
+Viaggi aerei: 81
+Aviones: 81
+Medicina alternativa: 81
+Toros: 80
+Royaume-Uni: 80
+Giardinaggio: 80
+Sonstiges: 80
+Deportes de Motor: 79
+Reptilien: 79
+Decorazione e ristrutturazione: 78
+Pré-Escola: 78
+Danzas: 78
+Impostos: 78
+Finanzas personales: 77
+Royauté: 77
+Ingenieurwesen: 77
+Motori: 77
+Genitori: 77
+Immigrazione: 77
+Finanzas: 76
+Credito: 75
+Cuidado de los Dientes: 75
+Kleinkinder: 75
+Manutenzione e riparazione: 75
+Citas célebres: 75
+Radfahren: 74
+Genealogia: 74
+Arts Martiaux: 74
+Geologia e Scienze della Terra: 74
+Alquiler y Compra de Pisos: 73
+Europa (Continentale): 73
+Reino Unido: 73
+Yahoo! Mobile: 72
+Música y Reproductores de Música: 72
+Généalogie: 72
+Estándares y Exámenes: 72
+Cine en Casa: 72
+Regno Unito: 71
+Educação Doméstica: 71
+Stati Uniti: 70
+Turismo: 70
+Yahoo! Foros: 70
+Adolescence: 70
+Gravidanza e genitori - Altro: 69
+Cámaras Fotográficas: 69
+Maternidade: 69
+Montadoras de Carros: 68
+Intrattenimento: 68
+Culinária Étnica: 67
+Train: 67
+Case automobilistiche: 67
+Palm Tops e Portáteis: 66
+Inde: 66
+Espagne: 66
+Caméras: 65
+Finanzierung: 65
+Cámaras: 64
+Embaixadas e Consulados: 64
+Otros - Bares y Restaurantes: 64
+Teatro: 63
+Citas Famosas: 63
+Activités de plein air: 63
+Ciências Alternativas: 63
+Sports automobiles: 63
+Rettili: 63
+Geowissenschaften: 62
+Recitazione: 62
+Rentar y Bienes y Raíces: 62
+Tráfico: 61
+Exámenes y Tests: 61
+Yahoo! Barra de Herramientas: 61
+Teléfonos Fijos: 61
+Spagna: 61
+Tempo e Meteorologia: 60
+Corporaciones e Industrias: 60
+Steuern: 60
+Végétarien: 60
+Adel & Königshäuser: 59
+Botanique: 59
+Piccola impresa: 59
+Kauf & Verkauf: 59
+Citazioni: 58
+Italie: 58
+Spanien: 58
+Riparazione e manutenzione: 58
+Arreglos y Reparaciones: 58
+Téléphonie fixe: 58
+Comprare e vendere: 57
+Öffentlicher Nahverkehr: 57
+Viagens: 57
+Pallavolo: 57
+Vídeo Cámaras: 56
+Inmuebles: 56
+Fotocamere: 56
+Motorräder: 56
+Fuerzas Policiales: 55
+Financement: 55
+Educación en Casa: 55
+Versicherung: 54
+Boxe: 54
+Cocina creativa: 54
+Giochi di carte: 54
+Sports d'hiver: 53
+Sports d'eau: 53
+Vegetariana e Vegan: 53
+Africa e Medio Oriente: 53
+Forze dell'ordine: 52
+Vegetarisch & Vegan: 52
+Afrika & Mittlerer Osten: 52
+Wintersport: 51
+Ingegneria: 51
+Prénoms: 51
+Fabricantes de automóviles: 51
+Kameras: 51
+Pymes: 50
+Marketing & Werbung: 50
+Uccelli: 50
+Versicherung & Zulassung: 50
+Anlage: 50
+Esercito: 50
+Buceo y Natación: 50
+Bürgerbeteiligung: 50
+Jogos de Tabuleiro: 50
+Home cinéma: 50
+Maternelle: 49
+Voleibol: 49
+Darstellende Kunst: 49
+Cocina étnica: 49
+Juegos de Tablero: 49
+Estudios en casa (Homeschooling): 49
+Car Audio & Electronics: 48
+Itália: 48
+Pequeñas y Medianas empresas: 48
+Realeza e Monarquia: 48
+Automobilismo: 48
+Danse: 48
+Basquete: 48
+Yahoo! Finance: 47
+Crianza: 47
+Decorating & Remodelling: 47
+Motorsport: 47
+Clima: 47
+Kleinunternehmen: 46
+Odontoiatria estetica: 46
+Miete & Wohneigentum: 46
+Videocámaras: 46
+Corrida: 46
+Parcs d'attraction: 45
+Imigração: 45
+Trenes: 45
+Hobbies e Artesanato: 44
+Erziehung: 44
+Boxen: 44
+Telefonia fissa: 44
+Jogos de Azar: 44
+Italien: 44
+Niños en Edad Pre Escolar: 44
+PDAs: 44
+Accessoires et consommables: 43
+Niños en edad pre escolar: 43
+Assicurazione e immatricolazione: 43
+Publicidad y Marketing: 43
+Pesci: 43
+Bahn: 43
+Football (Ligue Football Canadienne ): 43
+Brinquedos: 43
+Outras - Restaurantes: 43
+HDD e DVD recorder: 43
+Mein Yahoo!: 42
+Educación Primaria: 42
+Famiglie reali: 41
+Reproductores de música: 41
+Einwanderung: 41
+Brettspiele: 41
+Polizei: 41
+Irlanda: 40
+Niños en Edad pre Escolar: 40
+Jogos de Cartas: 40
+Yahoo! Barra de Ferramentas: 40
+Negozi ed aziende locali - Altro: 40
+Teenager: 40
+Básquet: 40
+Ökonomie: 40
+Bateaux et navigation: 40
+Studiare all'estero: 39
+Glücksspiel: 39
+Giochi da tavolo: 39
+Som Automotivo: 39
+Telefones Fixos: 39
+Viagens Rápidas: 39
+Festplatten- & DVD-Rekorder: 38
+Mangiare fuori - Altro: 38
+Recepções e Eventos: 38
+Basket: 38
+Équitation: 38
+Financiamento Estudantil: 38
+Elezioni: 38
+Transporte Marítimo: 38
+Periféricos para juegos: 38
+Yahoo!7 360: 37
+Africa y Medio Oriente: 37
+Estremo Oriente: 37
+Veicoli ad alimentazione alternativa: 37
+Natation & plongée: 36
+Spielzeug: 36
+Kartenspiele: 36
+Estudios en el Extranjero: 36
+Yahoo! Forums: 35
+Cucina etnica: 35
+Yahoo! Gruppi: 35
+Zitate: 35
+Selectividad: 35
+Juegos con palabras: 35
+Atletismo: 35
+Artes Performáticas: 34
+Parques de Diversão e Temáticos: 34
+Assicurazioni: 34
+Jugendliche: 33
+Bebês e Pré-Escolares: 33
+Ferrovie: 33
+Deportes con Motor: 33
+Tuning: 33
+Bebidas sin alcohol: 33
+Großbritannien: 33
+Deportes y Naturaleza: 33
+Spiele & Konsolen: 33
+Sports fantaisistes: 33
+Atividade ao Ar Livre: 32
+Auslandsstudium: 32
+Kinderwunsch: 31
+Caça-palavras: 31
+Toreo: 31
+Educazione speciale: 31
+Parques Temáticos: 31
+Amérique Latine: 31
+Caraïbes: 31
+Frases Célebres: 31
+Horoskope: 31
+Ehrenamt: 31
+Course à pied: 30
+Yahoo! Forum: 30
+Wassersport: 30
+Meteorologia: 30
+Natação e Mergulho: 29
+Cámaras de fotos: 29
+Österreich: 29
+Filmadoras: 29
+Nomes de Bebês: 29
+Voley: 29
+Brasile: 29
+Parchi di divertimento: 28
+Viagens Aéreas: 28
+Viajes al Trabajo: 28
+Indien: 28
+Jeux Olympiques: 28
+Billar: 28
+Otros - Restaurantes: 27
+Viajes Aéreos: 27
+Frankreich: 27
+Heimkino: 27
+PDA et smartphone: 27
+Tourada e Rodeio: 27
+Kampfsport: 27
+Sport invernali: 27
+Vegetariani e vegani: 27
+Ferrovias: 27
+Yahoo! Immobilier: 27
+Irlande: 27
+Deportes de Invierno: 27
+Boote & Schifffahrt: 27
+My Yahoo!7: 26
+Barcos e Navegação: 26
+Yahoo! Búsqueda: 26
+Australie: 26
+Sonstiges - Örtliche Unternehmen: 26
+Wahlen: 26
+Suiza: 26
+Botanik: 26
+Suisse: 26
+Car Audio e elettronica: 26
+Riviste: 26
+Primary Schooler: 25
+Test attitudinali: 25
+Yahoo! Groupes: 25
+Audio para automóviles: 25
+Box: 25
+Insegnamento a domicilio: 25
+Tênis: 25
+Yahoo!7 Groups: 24
+Otros - Comer Afuera: 24
+Educazione prescolare: 24
+Ciencias alternativas: 24
+Allemagne: 24
+Palmari: 24
+Cruceros: 24
+Deportes de Agua: 24
+Karibik: 23
+Alternative Wissenschaft: 23
+Teléfonos de Línea: 23
+Paisajismo: 23
+Patente y Seguros: 23
+Schweiz: 23
+Finanzielle Hilfen: 23
+Juegos Olímpicos: 23
+Yahoo!7 Photos: 22
+Schwimmen & Tauchen: 22
+Ambasciate e consolati: 22
+Audio para coches: 22
+Brésil: 22
+África y Medio Oriente: 22
+Giocattoli: 22
+Esportes Aquáticos: 22
+França: 22
+Outdoor: 22
+Analcolici: 21
+Tauromachia: 21
+Botschaften & Konsulate: 21
+Festnetz: 21
+África e Oriente Médio: 21
+Espanha: 21
+Yahoo! Móvil: 21
+Attività all'aperto: 21
+Flugreisen: 21
+Voyage de croisière: 21
+Auto-HiFi: 21
+Theater & Schauspiel: 21
+Handebol: 20
+Germania: 20
+Lateinamerika: 20
+Trenes y Subtes: 20
+Corridas de Toros: 20
+Reiten: 20
+Camcorder: 20
+Arti marziali: 20
+Eishockey: 20
+Australien: 20
+Beisbol: 19
+Olimpíadas: 19
+Brasilien: 19
+Zeitschriften: 19
+Freizeitparks: 19
+Nuoto e tuffi: 19
+Disciplinas Olímpicas: 19
+TDT y DVD grabadores: 19
+Artes marciales: 18
+Yahoo! Foto: 18
+Seguros e Registros: 18
+Barcos y Náutica: 18
+Botanica: 18
+Audio para el Auto: 18
+Yahoo! Compras: 18
+Yahoo!7 Search: 17
+Scolari: 17
+Alemanha: 17
+Olimpiadas: 17
+Comida Rápida: 17
+Nomi per bebè: 17
+Recreación al Aire Libre: 17
+Restauration rapide: 17
+Edad Preescolar: 17
+Ahnenforschung: 17
+Pendolarismo: 16
+Yahoo! Small Business: 16
+America Latina: 16
+Yahoo! Celular: 16
+Sport acquatici: 16
+Mexique: 16
+Messico: 16
+Asia Pacífico: 16
+Aerei: 16
+Becas: 15
+Edad Escolar: 15
+American Football: 15
+Lucha: 15
+Deportes Acuáticos: 15
+Transporte marítimo: 14
+Caraibi: 14
+Parques de Diversión: 14
+Kanada: 14
+Juegos: 14
+Natación y Saltos Ornamentales: 14
+Video Cameras: 13
+Asía Pacífico: 13
+Luta Livre: 13
+Fútbol américano: 13
+TiVO e DVRs: 13
+Beisebol: 13
+Ásia: 12
+Balonmano: 12
+Ippica: 12
+Yahoo! Bookmarks: 12
+Corsa: 12
+Copa Mundial 2007 de Cricket: 11
+Yahoo! Cadê?: 11
+Lutte: 11
+Economia Domestica: 11
+Biliardo: 11
+Vorschule: 11
+Computadoras de Mano: 11
+Alquiler y Compra de pisos: 11
+Tanz: 11
+Trasporti marittimi: 11
+Kindernamen: 11
+Parques temáticos: 11
+Phantasiesport: 11
+Carreras de Caballos: 11
+Yahoo!7 Toolbar: 11
+Philippines: 11
+Laufen: 10
+Deportes de agua: 10
+Svizzera: 10
+Deportes online: 10
+Suíça: 10
+Cricket World Cup 2007: 10
+Viêt Nam: 10
+Seguros y Registro de autos: 10
+Olympische Spiele: 10
+Esportes Fantasia: 9
+Yahoo! Favoris: 9
+Cruzeiros: 9
+Argentine: 9
+Mexiko: 9
+Età prescolare: 9
+Deportes de motor: 9
+Crociere: 9
+Yahoo!7 Message Boards: 8
+Yahoo! Viajes: 8
+Football (Americain): 8
+DVRs: 8
+Yahoo! Auto: 8
+Singapur: 8
+Handbol: 8
+Yahoo! Finanzas: 8
+Corridas de Cavalo: 8
+Esportes de Inverno: 8
+Autriche: 8
+Viajar al Trabajo: 8
+Bilhar e Sinuca: 7
+Football (Australien): 7
+Förderschule: 7
+Austrália: 7
+Deportes de Fantasía: 7
+Fútbol Americano: 7
+Heimschule: 7
+Yahoo! Mis favoritos: 7
+Kreuzfahrt: 7
+Servizi per cellulari: 7
+Yahoo! Inmobiliaria: 7
+Malaysia: 6
+Scienze alternative: 6
+Assistenza finanziaria: 6
+Futebol Americano: 6
+Índia: 6
+Carreras de caballos: 6
+Argentinien: 6
+Yahoo! Voyages: 6
+TiVO y DVRs: 6
+Billard: 6
+Vietnã: 6
+Billard et pool: 5
+Yahoo! Viaggi: 5
+Coupe du Monde de Cricket 2007: 5
+Yahoo! Suche: 5
+Golfe: 5
+Yahoo! Cinema: 4
+Canje: 4
+Football (Americano): 4
+Nouvelle-Zélande: 4
+Yahoo! Imóveis: 4
+Filipinas: 4
+Yahoo! Viagens: 4
+Hóquei: 4
+Yahoo! Lokale Suche: 4
+Nueva Zelanda: 4
+Yahoo! Mappe: 4
+Yahoo! Bienes y Raíces: 4
+Pallamano: 4
+Yahoo!7 Cars: 3
+Yahoo!7 Local: 3
+Preschool & Early Learning: 3
+Neuseeland: 3
+Yahoo! Search Marketing: 3
+Deportes de fantasía: 3
+Singapour: 3
+Indonesia: 3
+Yahoo! Immobilien: 3
+Disciplinas olímpicas: 3
+Fantatornei: 3
+Yahoo!7 Widgets: 2
+Malaisie: 2
+Yahoo! Finanza: 2
+Deportes de invierno: 2
+Yahoo! Coches: 2
+Yahoo! Marcadores: 2
+Yahoo! Móviles: 2
+Áustria: 2
+Fútbol Australiano: 2
+Yahoo! Casa: 2
+Yahoo! Finanzen: 2
+Yahoo!7 Shopping: 1
+Yahoo! Reisen: 1
+Yahoo! Finanças: 1
+Fútbol Canadiense: 1
+Nova Zelândia: 1
+Fútbol australiano: 1
+Irland: 1
+Philippinen: 1
+Nuova Zelanda: 1
+Cricket Weltmeisterschaft 2007: 1
+Malasia: 1
+Rúgbi: 1
+Yahoo! Widget: 1
+Yahoo!7 Travel: 1
+Yahoo!7 Real Estate: 1
