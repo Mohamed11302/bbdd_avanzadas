@@ -11,7 +11,7 @@ def contar_documentos(file_path):
     return num_documentos
 
 # Ruta al archivo XML
-archivo_xml = 'categorias4.xml'
+archivo_xml = 'categorias5.xml'
 
 # Contar documentos
 numero_documentos = contar_documentos(archivo_xml)

@@ -23,4 +23,4 @@ new_data = filtrar_categorias(RUTA_MOHAMED, CATEGORIAS_DESEADAS)
 
 # Crear un nuevo objeto ElementTree y usar el método write en él
 new_tree = ET.ElementTree(new_data)
-new_tree.write('categorias2.xml', encoding='utf-8')
+new_tree.write('categorias_filtradas_menos_eficiente.xml', encoding='utf-8')
