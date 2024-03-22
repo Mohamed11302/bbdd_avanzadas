@@ -8,15 +8,11 @@ def filtrar_categorias(file_name, categorias_deseadas):
     root = ET.parse(file_name)
     root = root.getroot()
     new_data = ET.Element('data')
-    i = 0
     print("Comenzando a filtrar")
     for document in root.findall(".//document"):
         cat = document.find('.//cat')
         if cat is not None and (cat.text in categorias_deseadas):
             new_data.append(document)
-        i+=1
-        if i % 1000000 == 0:
-            print(i)
     return new_data
 
 new_data = filtrar_categorias(RUTA_MOHAMED, CATEGORIAS_DESEADAS)
