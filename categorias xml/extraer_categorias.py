@@ -10,7 +10,7 @@ def count_elements(file_name, element_names):
     total_size = os.path.getsize(file_name)
     processed_size = 0
     for event, elem in ET.iterparse(file_name, events=("start", "end")):
-        if event == "end" and elem.tag in element_names:
+        if (event == "start" or event=="end") and elem.tag in element_names:
             counters[elem.tag][elem.text] += 1
         processed_size += len(elem.tag) + (len(elem.text) if elem.text else 0) + 2  # Approximate size of the element in the file
         if processed_size % 1000000 == 0:  # Update progress every 1MB
