@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Created with Liquid Studio (https://www.liquid-technologies.com) -->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+    <xs:complexType name="dataType"  >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="3" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="document" type="documentType" />
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="data" type="dataType" />
+
+    <xs:complexType name="documentType"  >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="7" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+            <xs:element name="uri" type="uriType" />
+            <xs:element name="subject" type="subjectType" />
+            <xs:element name="content" type="contentType" minOccurs="0"/>
+            <xs:element name="bestanswer" type="bestanswerType" minOccurs="0"/>
+            <xs:element name="nbestanswers" type="nbestanswersType" minOccurs="0"/>
+            <xs:element name="cat" type="catType" />
+            <xs:element name="maincat" type="maincatType" />
+            <xs:element name="subcat" type="subcatType" />
+            <xs:element name="date" type="dateType" />
+            <xs:element name="res_date" type="res_dateType" minOccurs="0"/>
+            <xs:element name="vot_date" type="vot_dateType" minOccurs="0"/>
+            <xs:element name="lastanswerts" type="lastanswertsType" />
+            <xs:element name="qlang" type="qlangType" />
+            <xs:element name="qintl" type="qintlType" />
+            <xs:element name="language" type="languageType" />
+            <xs:element name="id" type="idType" minOccurs="0"/>
+            <xs:element name="best_id" type="best_idType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+        <xs:attribute name="type" use="required" type="xs:NMTOKEN" />
+    </xs:complexType>
+    <xs:element name="document" type="documentType" />
+
+    <xs:complexType name="uriType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="12" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="uri" type="uriType" />
+
+    <xs:complexType name="subjectType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="16" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="subject" type="subjectType" />
+
+    <xs:complexType name="contentType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="20" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="content" type="contentType" />
+
+    <xs:complexType name="bestanswerType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="24" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="bestanswer" type="bestanswerType" />
+
+    <xs:complexType name="nbestanswersType"  >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="28" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="answer_item" type="answer_itemType" />
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="nbestanswers" type="nbestanswersType" />
+
+    <xs:complexType name="catType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="32" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="cat" type="catType" />
+
+    <xs:complexType name="maincatType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="36" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="maincat" type="maincatType" />
+
+    <xs:complexType name="subcatType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="40" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="subcat" type="subcatType" />
+
+    <xs:complexType name="dateType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="44" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="date" type="dateType" />
+
+    <xs:complexType name="res_dateType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="48" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="res_date" type="res_dateType" />
+
+    <xs:complexType name="vot_dateType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="52" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="vot_date" type="vot_dateType" />
+
+    <xs:complexType name="lastanswertsType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="56" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="lastanswerts" type="lastanswertsType" />
+
+    <xs:complexType name="qlangType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="60" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="qlang" type="qlangType" />
+
+    <xs:complexType name="qintlType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="64" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="qintl" type="qintlType" />
+
+    <xs:complexType name="languageType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="68" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="language" type="languageType" />
+
+    <xs:complexType name="idType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="72" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="id" type="idType" />
+
+    <xs:complexType name="best_idType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="76" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="best_id" type="best_idType" />
+
+    <xs:complexType name="answer_itemType"  mixed="true" >
+        <xs:annotation>
+            <xs:appinfo><dtdSource line="80" col="1" /></xs:appinfo>
+        </xs:annotation>
+        <xs:sequence >
+        </xs:sequence>
+        <xs:attribute name="xmlns" fixed="" type="xs:string" />
+    </xs:complexType>
+    <xs:element name="answer_item" type="answer_itemType" />
+
+</xs:schema>
