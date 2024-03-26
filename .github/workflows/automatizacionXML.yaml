@@ -38,6 +38,7 @@ jobs:
       - name: Prueba tree
         run: |
           tree
+          head -c 38 scripts/automatizacion/automatizacion_files/categorias_filtradas.xml 
 
       - name: Crear DTD
         run: |
