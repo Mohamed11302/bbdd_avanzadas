@@ -37,7 +37,8 @@ jobs:
           cp ${{ env.ARCHIVO_ORIGEN }}.xml ${{ env.ARCHIVO_GENERADO }}.xml
           cp ${{ env.ARCHIVO_ORIGEN }}.xslt ${{ env.ARCHIVO_GENERADO }}.xslt
           touch ${{ env.ARCHIVO_GENERADO }}.dtd
-      -name: Prueba tree
+
+      - name: Prueba tree
         run: |
           tree
 
