@@ -15,8 +15,8 @@ jobs:
       CARPETA_SCRIPTS: scripts
       CARPETA_CONSULTAS: ../../consultas
       NOMBRE_ARCHIVO: categorias_filtradas
-      ARCHIVO_ORIGEN: ${{ env.CARPETA_ORIGEN }}/${{ env.NOMBRE_ARCHIVO }}
-      ARCHIVO_GENERADO: ${{ env.CARPETA_DESTINO }}/${{ env.NOMBRE_ARCHIVO }}
+      ARCHIVO_ORIGEN: ../../files/categorias_filtradas 
+      ARCHIVO_GENERADO: automatizacion_files/categorias_filtradas
 
     steps:
       - name: Checkout código
