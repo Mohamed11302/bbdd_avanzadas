@@ -1,1 +1,6 @@
 env
+scripts/automatizacion/*
+!scripts/automatizacion/scripts
+!scripts/automatizacion/Makefile
+
+
