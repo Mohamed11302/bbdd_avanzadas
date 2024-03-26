@@ -28,6 +28,7 @@ jobs:
           sudo apt-get install -y libxml2-utils trang unzip
           wget https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-4/SaxonHE12-4J.zip
           unzip SaxonHE12-4J.zip -d SaxonJAR
+          sudo snap install tree
 
       - name: Preparar archivos
         run: |
@@ -36,6 +37,9 @@ jobs:
           cp ${{ env.ARCHIVO_ORIGEN }}.xml ${{ env.ARCHIVO_GENERADO }}.xml
           cp ${{ env.ARCHIVO_ORIGEN }}.xslt ${{ env.ARCHIVO_GENERADO }}.xslt
           touch ${{ env.ARCHIVO_GENERADO }}.dtd
+      -name: Prueba tree
+        run: |
+          tree
 
       - name: Crear DTD
         run: |
