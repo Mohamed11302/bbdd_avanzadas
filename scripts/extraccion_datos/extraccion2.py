@@ -3,6 +3,7 @@ import os
 
 RUTA_MOHAMED = 'C:\\Users\\mohae\\Desktop\\2º Semestre\\BBDD Avanzadas\\Bloques\\Bloque 2 Xml\\Trabajo\\Trabajo 1\\FullOct2007.xml'
 CATEGORIAS_DESEADAS = ['Video & Online Games', 'Music & Music Players', 'Reality Television', 'Other - Entertainment']
+RUTA_DESTINO = 'files/categorias_filtradas.xml'
 
 def filtrar_categorias(file_name, categorias_deseadas, output_file):
     print("Comenzando a filtrar...")
@@ -23,4 +24,4 @@ def filtrar_categorias(file_name, categorias_deseadas, output_file):
                     print(f"Procesados {i} documentos, aproximadamente {porcentaje:.2f}% del total")
         output.write(b'</data>')
 
-filtrar_categorias(RUTA_MOHAMED, CATEGORIAS_DESEADAS, 'categorias_filtradas.xml')
+filtrar_categorias(RUTA_MOHAMED, CATEGORIAS_DESEADAS, RUTA_DESTINO)

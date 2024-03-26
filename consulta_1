@@ -1,6 +1,0 @@
-let $qintlValues := //qintl
-let $uniqueQintlValues := distinct-values($qintlValues)
-for $qintlValue in $uniqueQintlValues
-let $count := count($qintlValues[. = $qintlValue])
-order by $count descending
-return concat("Valor de qintl: ", $qintlValue, ", Número de repeticiones: ", $count)

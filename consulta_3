@@ -1,9 +1,0 @@
-let $questions := //document[exists(bestanswer)]
-for $question in $questions
-let $numAnswers := count($question/nbestanswers/answer_item)
-order by $numAnswers descending
-return 
-    <question>
-        <subject>{$question/subject/text()}</subject>
-        <num_answers>{$numAnswers}</num_answers>
-    </question>
