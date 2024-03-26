@@ -44,28 +44,34 @@ jobs:
 
       - name: Crear DTD
         run: |
+          cd scripts/automatizacion
           trang -I xml -O dtd ${{ env.ARCHIVO_GENERADO }}.xml ${{ env.ARCHIVO_GENERADO }}.dtd
 
       - name: Agregar referencia DTD
         run: |
+          cd scripts/automatizacion
           javac ${{ env.CARPETA_SCRIPTS }}/add_reference_dtd.java
           java -cp ${{ env.CARPETA_SCRIPTS }} add_reference_dtd ${{ env.ARCHIVO_GENERADO }}.xml ${{ env.NOMBRE_ARCHIVO }}.dtd
 
       - name: Crear archivo HTML
         run: |
+          cd scripts/automatizacion
           java -jar SaxonJAR/saxon-he-12.4.jar -s:${{ env.ARCHIVO_GENERADO }}.xml -xsl:${{ env.ARCHIVO_ORIGEN }}.xslt -o:${{ env.ARCHIVO_GENERADO }}XSLT.html
 
       - name: Ejecutar consulta 1 XQuery
         run: |
+          cd scripts/automatizacion
           javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
           java -cp ${{ env.CARPETA_SCRIPTS }}:SaxonJAR/saxon-he-12.4.jar XQueryExecutor ${{ env.CARPETA_CONSULTAS }}/consulta_1.txt ${{ env.ARCHIVO_GENERADO }}.xml
 
       - name: Ejecutar consulta 2 XQuery
         run: |
+          cd scripts/automatizacion
           javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
           java -cp ${{ env.CARPETA_SCRIPTS }}:SaxonJAR/saxon-he-12.4.jar XQueryExecutor ${{ env.CARPETA_CONSULTAS }}/consulta_2.txt ${{ env.ARCHIVO_GENERADO }}.xml
 
       - name: Ejecutar consulta 3 XQuery
         run: |
+          cd scripts/automatizacion
           javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
           java -cp ${{ env.CARPETA_SCRIPTS }}:SaxonJAR/saxon-he-12.4.jar XQueryExecutor ${{ env.CARPETA_CONSULTAS }}/consulta_3.txt ${{ env.ARCHIVO_GENERADO }}.xml
