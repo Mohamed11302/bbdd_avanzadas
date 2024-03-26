@@ -29,7 +29,7 @@ jobs:
           NOMBRE_ARCHIVO=categorias_filtradas
           ARCHIVO_ORIGEN=${CARPETA_ORIGEN}/${NOMBRE_ARCHIVO}
           ARCHIVO_GENERADO=${CARPETA_DESTINO}/${NOMBRE_ARCHIVO}
-
+          cd scripts/automatizacion
           mkdir -p ${CARPETA_DESTINO}
           cp ${ARCHIVO_ORIGEN}.xml ${ARCHIVO_GENERADO}.xml
           cp ${ARCHIVO_ORIGEN}.xslt ${ARCHIVO_GENERADO}.xslt
