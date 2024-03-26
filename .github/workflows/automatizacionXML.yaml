@@ -36,11 +36,6 @@ jobs:
           touch ${{ env.ARCHIVO_GENERADO }}.dtd
         working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
 
-      - name: Prueba tree
-        run: |
-          tree
-          head -c 38 scripts/automatizacion/automatizacion_files/categorias_filtradas.xml 
-
       - name: Crear DTD
         run: |
           trang -I xml -O dtd ${{ env.ARCHIVO_GENERADO }}.xml ${{ env.ARCHIVO_GENERADO }}.dtd
@@ -56,16 +51,19 @@ jobs:
         run: |
           java -jar SaxonJAR/saxon-he-12.4.jar -s:${{ env.ARCHIVO_GENERADO }}.xml -xsl:${{ env.ARCHIVO_ORIGEN }}.xslt -o:${{ env.ARCHIVO_GENERADO }}XSLT.html
         working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
       - name: Ejecutar consulta 1 XQuery
         run: |
           javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
           java -cp ${{ env.CARPETA_SCRIPTS }}:SaxonJAR/saxon-he-12.4.jar XQueryExecutor ${{ env.CARPETA_CONSULTAS }}/consulta_1.txt ${{ env.ARCHIVO_GENERADO }}.xml
         working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
       - name: Ejecutar consulta 2 XQuery
         run: |
           javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
           java -cp ${{ env.CARPETA_SCRIPTS }}:SaxonJAR/saxon-he-12.4.jar XQueryExecutor ${{ env.CARPETA_CONSULTAS }}/consulta_2.txt ${{ env.ARCHIVO_GENERADO }}.xml
         working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+        
       - name: Ejecutar consulta 3 XQuery
         run: |
           javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
