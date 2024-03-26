@@ -1,5 +1,14 @@
 name: Proceso XML Automático
 
+variables:
+  CARPETA_ORIGEN: ../../files
+  CARPETA_DESTINO: automatizacion_files
+  CARPETA_SCRIPTS: scripts
+  CARPETA_CONSULTAS: ../../consultas
+  NOMBRE_ARCHIVO: categorias_filtradas
+  ARCHIVO_ORIGEN: ${variables.CARPETA_ORIGEN}/${variables.NOMBRE_ARCHIVO}
+  ARCHIVO_GENERADO: ${variables.CARPETA_DESTINO}/${variables.NOMBRE_ARCHIVO}
+
 on:
   push:
     branches:
@@ -22,27 +31,20 @@ jobs:
 
       - name: Preparar archivos
         run: |
-          CARPETA_ORIGEN=../../files
-          CARPETA_DESTINO=automatizacion_files
-          CARPETA_SCRIPTS=scripts
-          CARPETA_CONSULTAS=../../consultas
-          NOMBRE_ARCHIVO=categorias_filtradas
-          ARCHIVO_ORIGEN=${CARPETA_ORIGEN}/${NOMBRE_ARCHIVO}
-          ARCHIVO_GENERADO=${CARPETA_DESTINO}/${NOMBRE_ARCHIVO}
           cd scripts/automatizacion
-          mkdir -p ${CARPETA_DESTINO}
-          cp ${ARCHIVO_ORIGEN}.xml ${ARCHIVO_GENERADO}.xml
-          cp ${ARCHIVO_ORIGEN}.xslt ${ARCHIVO_GENERADO}.xslt
-          touch ${ARCHIVO_GENERADO}.dtd
+          mkdir -p ${variables.CARPETA_DESTINO}
+          cp ${variables.ARCHIVO_ORIGEN}.xml ${variables.ARCHIVO_GENERADO}.xml
+          cp ${variables.ARCHIVO_ORIGEN}.xslt ${variables.ARCHIVO_GENERADO}.xslt
+          touch ${variables.ARCHIVO_GENERADO}.dtd
 
       - name: Crear DTD
         run: |
-          trang -I xml -O dtd ${ARCHIVO_GENERADO}.xml ${ARCHIVO_GENERADO}.dtd
+          trang -I xml -O dtd ${variables.ARCHIVO_GENERADO}.xml ${variables.ARCHIVO_GENERADO}.dtd
 
       - name: Agregar referencia DTD
         run: |
-          javac ${CARPETA_SCRIPTS}/add_reference_dtd.java
-          java -cp ${CARPETA_SCRIPTS} add_reference_dtd ${ARCHIVO_GENERADO}.xml ${NOMBRE_ARCHIVO}.dtd
+          javac ${variables.CARPETA_SCRIPTS}/add_reference_dtd.java
+          java -cp ${variables.CARPETA_SCRIPTS} add_reference_dtd ${variables.ARCHIVO_GENERADO}.xml ${variables.NOMBRE_ARCHIVO}.dtd
 
       - name: Crear archivo HTML
         run: |
