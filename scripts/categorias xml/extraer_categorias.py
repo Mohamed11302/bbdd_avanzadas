@@ -3,11 +3,11 @@ from collections import Counter
 import os
 
 RUTA_MOHAMED = 'C:\\Users\\mohae\\Desktop\\2º Semestre\\BBDD Avanzadas\\Bloques\\Bloque 2 Xml\\Trabajo\\Trabajo 1\\FullOct2007.xml'
-
+DESTINO = 'scripts/categorias xml/categorias/'
 
 def count_elements(file_name, element_names):
     counters = {name: Counter() for name in element_names}
-    total_size = os.path.getsize(file_name)
+    total_size = os.path.getsize(file_name)*3  # Approximate size of the file in bytes
     processed_size = 0
     for event, elem in ET.iterparse(file_name, events=("start", "end")):
         if (event == "start" or event=="end") and elem.tag in element_names:
@@ -19,7 +19,7 @@ def count_elements(file_name, element_names):
     return counters
 
 def write_counter_to_file(counter, element_name):
-    with open(f"{element_name}_counts.txt", "w") as f:
+    with open(f"{DESTINO}{element_name}_counts.txt", "w") as f:
         for key, value in counter.most_common():
             f.write(f"{key}: {value}\n")
 

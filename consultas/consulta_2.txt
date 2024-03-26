@@ -1,0 +1,9 @@
+let $categories := distinct-values(//cat | //maincat | //subcat)
+for $category in $categories
+let $count := count(//document[cat eq $category] | //document[maincat eq $category] | //document[subcat eq $category])
+order by $count descending
+return 
+    <category>
+        <name>{$category}</name>
+        <count>{$count}</count>
+    </category>
