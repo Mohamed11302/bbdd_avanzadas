@@ -47,6 +47,11 @@ jobs:
           java -cp ${{ env.CARPETA_SCRIPTS }} add_reference_dtd ${{ env.ARCHIVO_GENERADO }}.xml ${{ env.NOMBRE_ARCHIVO }}.dtd
         working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
 
+      - name: Crear XSD
+        run: |
+          trang ${{ env.ARCHIVO_GENERADO }}.xml ${{ env.ARCHIVO_GENERADO }}.xsd
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
       - name: Crear archivo HTML
         run: |
           java -jar SaxonJAR/saxon-he-12.4.jar -s:${{ env.ARCHIVO_GENERADO }}.xml -xsl:${{ env.ARCHIVO_ORIGEN }}.xslt -o:${{ env.ARCHIVO_GENERADO }}XSLT.html
