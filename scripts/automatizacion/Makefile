@@ -10,6 +10,7 @@ SAXONJAR=SaxonJAR/saxon-he-12.4.jar
 .PHONY: proceso_xml_automatico
 
 clean: uninstall-dependencies delete-xml-files
+all-run: install-dependencies run-xml
 
 install-dependencies:
 #	Descargar las herramientas necesarias para ejecutar este proceso 
@@ -52,6 +53,11 @@ run-xml:
 	@echo "AÑADIR REFERENCIA DTD"
 	javac ${CARPETA_SCRIPTS}/add_reference_dtd.java
 	java -cp ${CARPETA_SCRIPTS} add_reference_dtd ${ARCHIVO_GENERADO}.xml ${NOMBRE_ARCHIVO}.dtd
+	@echo "************************"
+#	Crear el archivo xsd
+	@echo "*******************"
+	@echo "CREACION XSD"
+	trang ${ARCHIVO_GENERADO}.xml ${ARCHIVO_GENERADO}.xsd
 	@echo "************************"
 #	Crear el archivo HTML con el formateo correcto
 	@echo "*******************"
