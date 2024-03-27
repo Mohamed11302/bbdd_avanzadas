@@ -1,0 +1,76 @@
+name: Proceso XML Automático
+
+on:
+  push:
+    branches:
+      - AutomatizacionXMLYahoo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      CARPETA_ORIGEN: ../../files
+      CARPETA_DESTINO: automatizacion_files
+      CARPETA_SCRIPTS: scripts
+      CARPETA_CONSULTAS: ../../consultas
+      NOMBRE_ARCHIVO: categorias_filtradas
+      ARCHIVO_ORIGEN: ../../files/categorias_filtradas 
+      ARCHIVO_GENERADO: automatizacion_files/categorias_filtradas
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v2
+
+      - name: Instalar dependencias y preparar archivos
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils trang unzip
+          wget https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-4/SaxonHE12-4J.zip
+          unzip SaxonHE12-4J.zip -d SaxonJAR
+          git lfs pull
+          sudo snap install tree
+          mkdir -p ${{ env.CARPETA_DESTINO }}
+          cp ${{ env.ARCHIVO_ORIGEN }}.xml ${{ env.ARCHIVO_GENERADO }}.xml
+          cp ${{ env.ARCHIVO_ORIGEN }}.xslt ${{ env.ARCHIVO_GENERADO }}.xslt
+          touch ${{ env.ARCHIVO_GENERADO }}.dtd
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
+      - name: Crear DTD
+        run: |
+          trang -I xml -O dtd ${{ env.ARCHIVO_GENERADO }}.xml ${{ env.ARCHIVO_GENERADO }}.dtd
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
+      - name: Agregar referencia DTD
+        run: |
+          javac ${{ env.CARPETA_SCRIPTS }}/add_reference_dtd.java
+          java -cp ${{ env.CARPETA_SCRIPTS }} add_reference_dtd ${{ env.ARCHIVO_GENERADO }}.xml ${{ env.NOMBRE_ARCHIVO }}.dtd
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
+      - name: Crear XSD
+        run: |
+          trang ${{ env.ARCHIVO_GENERADO }}.xml ${{ env.ARCHIVO_GENERADO }}.xsd
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
+      - name: Crear archivo HTML
+        run: |
+          java -jar SaxonJAR/saxon-he-12.4.jar -s:${{ env.ARCHIVO_GENERADO }}.xml -xsl:${{ env.ARCHIVO_ORIGEN }}.xslt -o:${{ env.ARCHIVO_GENERADO }}XSLT.html
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
+      - name: Ejecutar consulta 1 XQuery
+        run: |
+          javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
+          java -cp ${{ env.CARPETA_SCRIPTS }}:SaxonJAR/saxon-he-12.4.jar XQueryExecutor ${{ env.CARPETA_CONSULTAS }}/consulta_1.txt ${{ env.ARCHIVO_GENERADO }}.xml
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+
+      - name: Ejecutar consulta 2 XQuery
+        run: |
+          javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
+          java -cp ${{ env.CARPETA_SCRIPTS }}:SaxonJAR/saxon-he-12.4.jar XQueryExecutor ${{ env.CARPETA_CONSULTAS }}/consulta_2.txt ${{ env.ARCHIVO_GENERADO }}.xml
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
+        
+      - name: Ejecutar consulta 3 XQuery
+        run: |
+          javac -cp SaxonJAR/saxon-he-12.4.jar -Xdiags:verbose ${{ env.CARPETA_SCRIPTS }}/XQueryExecutor.java
+          java -cp ${{ env.CARPETA_SCRIPTS }}:SaxonJAR/saxon-he-12.4.jar XQueryExecutor ${{ env.CARPETA_CONSULTAS }}/consulta_3.txt ${{ env.ARCHIVO_GENERADO }}.xml
+        working-directory: ${{ env.CARPETA_SCRIPTS }}/automatizacion
