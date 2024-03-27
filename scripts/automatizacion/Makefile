@@ -15,8 +15,6 @@ all-run: install-dependencies run-xml
 install-dependencies:
 #	Descargar las herramientas necesarias para ejecutar este proceso 
 	sudo apt update
-#	XMLLINT	
-	sudo apt install -y libxml2-utils
 #	TRANG
 	sudo apt-get install -y trang
 #	SAXON
